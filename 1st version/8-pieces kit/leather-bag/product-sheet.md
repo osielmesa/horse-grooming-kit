@@ -46,14 +46,14 @@ The Large Handcrafted Leather Bag is the storage and presentation unit of the 8-
 
 ## Dimensions & Weight
 
-| Measurement | Value |
-|-------------|-------|
-| Width | 36 cm |
-| Depth | 28 cm |
-| Height | 28 cm |
-| Gross Weight (with all 8 tools) | 2.20 kg |
+| Measurement | Metric | US |
+|-------------|--------|------|
+| Width | 36 cm | 14.2 in |
+| Depth | 28 cm | 11.0 in |
+| Height | 28 cm | 11.0 in |
+| Gross Weight (with all 8 tools) | 2.20 kg | 4.9 lbs |
 
-> Significantly larger than the 4-piece bag (25 × 26 × 13.5 cm / 1.15 kg).
+> Significantly larger than the 4-piece bag (25 × 26 × 13.5 cm / 9.8 × 10.2 × 5.3 in / 1.15 kg / 2.5 lbs).
 
 ---
 
@@ -61,17 +61,17 @@ The Large Handcrafted Leather Bag is the storage and presentation unit of the 8-
 
 Holds all 8 tools from the set:
 
-| Tool | Dimensions (cm) | Weight |
-|------|-----------------|--------|
-| Sweat Scraper | 22 × 21.5 | 280 g |
-| Curry Comb | 22 × 10.3 × 2.5 | 152 g |
-| Mane & Tail Pin Brush | 20.5 × 7 × 3 | 95 g |
-| Hoof Pick | 16.5 × 8 × 2 | 103.5 g |
-| Grooming Sponge | 16.5 × 8 × 5 | 13.5 g |
-| Dandy Brush | 20 × 6 × 6.5 | 174 g |
-| Soft Finishing Brush | 17 × 9 × 7.7 | 265 g |
-| Massage Brush | 11 × 7.5 × 9 | 143.5 g |
-| **Total tools weight** | | **~1,227 g** |
+| Tool | Dimensions (cm / in) | Weight |
+|------|----------------------|--------|
+| Sweat Scraper | 22 × 21.5 / 8.7 × 8.5 | 280 g / 9.9 oz |
+| Curry Comb | 22 × 10.3 × 2.5 / 8.7 × 4.1 × 1.0 | 152 g / 5.4 oz |
+| Mane & Tail Pin Brush | 20.5 × 7 × 3 / 8.1 × 2.8 × 1.2 | 95 g / 3.4 oz |
+| Hoof Pick | 16.5 × 8 × 2 / 6.5 × 3.1 × 0.8 | 103.5 g / 3.7 oz |
+| Grooming Sponge | 16.5 × 8 × 5 / 6.5 × 3.1 × 2.0 | 13.5 g / 0.5 oz |
+| Dandy Brush | 20 × 6 × 6.5 / 7.9 × 2.4 × 2.6 | 174 g / 6.1 oz |
+| Soft Finishing Brush | 17 × 9 × 7.7 / 6.7 × 3.5 × 3.0 | 265 g / 9.3 oz |
+| Massage Brush | 11 × 7.5 × 9 / 4.3 × 3.0 × 3.5 | 143.5 g / 5.1 oz |
+| **Total tools weight** | | **~1,227 g / ~43.3 oz** |
 
 ---
 
@@ -89,8 +89,8 @@ Holds all 8 tools from the set:
 
 | Feature | 4-Piece Bag | 8-Piece Bag |
 |---------|-------------|-------------|
-| Dimensions | 25 × 26 × 13.5 cm | 36 × 28 × 28 cm |
-| Gross weight (with tools) | 1.15 kg | 2.20 kg |
+| Dimensions | 25 × 26 × 13.5 cm (9.8 × 10.2 × 5.3 in) | 36 × 28 × 28 cm (14.2 × 11.0 × 11.0 in) |
+| Gross weight (with tools) | 1.15 kg (2.5 lbs) | 2.20 kg (4.9 lbs) |
 | OPP barcode | X004YDJNQH | X004YDO8SZ |
 | Units per master carton | 4 | 2 |
 

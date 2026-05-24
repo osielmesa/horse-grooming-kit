@@ -39,12 +39,12 @@ The Hoof Pick has an ergonomic **contoured beechwood handle** with a hanging hol
 
 ## Dimensions & Weight
 
-| Measurement | Value |
-|-------------|-------|
-| Length | 16.5 cm |
-| Width | 8 cm |
-| Height / thickness | 2 cm |
-| Net Weight | 103.5 g |
+| Measurement | Metric | US |
+|-------------|--------|------|
+| Length | 16.5 cm | 6.5 in |
+| Width | 8 cm | 3.1 in |
+| Height / thickness | 2 cm | 0.8 in |
+| Net Weight | 103.5 g | 3.7 oz |
 
 ---
 
@@ -62,8 +62,8 @@ The Hoof Pick has an ergonomic **contoured beechwood handle** with a hanging hol
 ## Packaging
 
 - Stored inside the large handcrafted leather bag
-- Bag dimensions: 36 × 28 × 28 cm
-- Gross weight of bag + all 8 tools: 2.20 kg
+- Bag dimensions: 36 × 28 × 28 cm (14.2 × 11.0 × 11.0 in)
+- Gross weight of bag + all 8 tools: 2.20 kg (4.9 lbs)
 
 ---
 

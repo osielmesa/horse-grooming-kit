@@ -38,12 +38,12 @@ The Soft Finishing Brush is the polishing tool of the set. Designed for the fina
 
 ## Dimensions & Weight
 
-| Measurement | Value |
-|-------------|-------|
-| Length | 19.5 cm |
-| Width | 8.5 cm |
-| Height (with bristles) | 8.5 cm |
-| Net Weight | 231 g |
+| Measurement | Metric | US |
+|-------------|--------|------|
+| Length | 19.5 cm | 7.7 in |
+| Width | 8.5 cm | 3.3 in |
+| Height (with bristles) | 8.5 cm | 3.3 in |
+| Net Weight | 231 g | 8.1 oz |
 
 ---
 
@@ -61,7 +61,7 @@ The Soft Finishing Brush is the polishing tool of the set. Designed for the fina
 ## Packaging
 
 - Stored inside the handcrafted leather bag
-- Leather bag dimensions: 25 × 26 × 13.5 cm
+- Leather bag dimensions: 25 × 26 × 13.5 cm (9.8 × 10.2 × 5.3 in)
 - Individual poly bag wrapping inside the bag
 - Desiccant included in packaging
 

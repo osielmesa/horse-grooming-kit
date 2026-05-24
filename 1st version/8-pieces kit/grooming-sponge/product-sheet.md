@@ -24,12 +24,12 @@ The Grooming Sponge is the lightest tool in the 8-piece set. It is used for bath
 
 ## Dimensions & Weight
 
-| Measurement | Value |
-|-------------|-------|
-| Length | 16.5 cm |
-| Width | 8 cm |
-| Height | 5 cm |
-| Net Weight | 13.5 g |
+| Measurement | Metric | US |
+|-------------|--------|------|
+| Length | 16.5 cm | 6.5 in |
+| Width | 8 cm | 3.1 in |
+| Height | 5 cm | 2.0 in |
+| Net Weight | 13.5 g | 0.5 oz |
 
 > Lightest item in the entire 8-piece set. Weight is consistent with a small natural or compressed dry sponge.
 
@@ -50,8 +50,8 @@ The Grooming Sponge is the lightest tool in the 8-piece set. It is used for bath
 ## Packaging
 
 - Stored inside the large handcrafted leather bag
-- Bag dimensions: 36 × 28 × 28 cm
-- Gross weight of bag + all 8 tools: 2.20 kg
+- Bag dimensions: 36 × 28 × 28 cm (14.2 × 11.0 × 11.0 in)
+- Gross weight of bag + all 8 tools: 2.20 kg (4.9 lbs)
 
 ---
 

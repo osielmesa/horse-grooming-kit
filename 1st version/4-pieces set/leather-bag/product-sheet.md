@@ -40,12 +40,12 @@ The Handcrafted Leather Bag is the storage and presentation unit of the 4-piece 
 
 ## Dimensions & Weight
 
-| Measurement | Value |
-|-------------|-------|
-| Width | 25 cm |
-| Depth | 26 cm |
-| Height | 13.5 cm |
-| Gross Weight (with tools) | 1.15 kg |
+| Measurement | Metric | US |
+|-------------|--------|------|
+| Width | 25 cm | 9.8 in |
+| Depth | 26 cm | 10.2 in |
+| Height | 13.5 cm | 5.3 in |
+| Gross Weight (with tools) | 1.15 kg | 2.5 lbs |
 
 ---
 
@@ -53,13 +53,13 @@ The Handcrafted Leather Bag is the storage and presentation unit of the 4-piece 
 
 Holds all 4 tools from the set:
 
-| Tool | Dimensions (L×W×H cm) | Weight |
-|------|-----------------------|--------|
-| Soft Finishing Brush | 19.5 × 8.5 × 8.5 | 231 g |
-| Dandy Brush (Hard) | 19 × 8.5 × 14 | 275.5 g |
-| Face Brush | 12 × 7.5 × 10 | 156.5 g |
-| Mane & Tail Pin Brush | 24 × 8.5 × 1.7 | 148 g |
-| **Total tools weight** | | **811 g** |
+| Tool | Dimensions (cm / in) | Weight |
+|------|----------------------|--------|
+| Soft Finishing Brush | 19.5 × 8.5 × 8.5 / 7.7 × 3.3 × 3.3 | 231 g / 8.1 oz |
+| Dandy Brush (Hard) | 19 × 8.5 × 14 / 7.5 × 3.3 × 5.5 | 275.5 g / 9.7 oz |
+| Face Brush | 12 × 7.5 × 10 / 4.7 × 3.0 × 3.9 | 156.5 g / 5.5 oz |
+| Mane & Tail Pin Brush | 24 × 8.5 × 1.7 / 9.4 × 3.3 × 0.7 | 148 g / 5.2 oz |
+| **Total tools weight** | | **811 g / 28.6 oz** |
 
 ---
 
@@ -79,8 +79,8 @@ Holds all 4 tools from the set:
 | Detail | Value |
 |--------|-------|
 | Units per carton | 4 |
-| Carton size (L×W×H) | 52 × 53 × 16 cm |
-| Gross weight per carton | 5.40 kg |
+| Carton size (L×W×H) | 52 × 53 × 16 cm (20.5 × 20.9 × 6.3 in) |
+| Gross weight per carton | 5.40 kg (11.9 lbs) |
 | Carton material | 5-ply corrugated paper |
 | Sealing | Transparent gummed tape |
 | Carton barcode | FSHY2601004257 |

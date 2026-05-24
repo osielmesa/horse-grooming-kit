@@ -38,12 +38,12 @@ The Dandy Brush is the workhorse of the set. With its stiff natural bristles and
 
 ## Dimensions & Weight
 
-| Measurement | Value |
-|-------------|-------|
-| Length | 19 cm |
-| Width | 8.5 cm |
-| Height (with bristles) | 14 cm |
-| Net Weight | 275.5 g |
+| Measurement | Metric | US |
+|-------------|--------|------|
+| Length | 19 cm | 7.5 in |
+| Width | 8.5 cm | 3.3 in |
+| Height (with bristles) | 14 cm | 5.5 in |
+| Net Weight | 275.5 g | 9.7 oz |
 
 > Heaviest brush in the set — deeper bristle profile for intensive cleaning.
 
@@ -63,7 +63,7 @@ The Dandy Brush is the workhorse of the set. With its stiff natural bristles and
 ## Packaging
 
 - Stored inside the handcrafted leather bag
-- Leather bag dimensions: 25 × 26 × 13.5 cm
+- Leather bag dimensions: 25 × 26 × 13.5 cm (9.8 × 10.2 × 5.3 in)
 - Individual poly bag wrapping inside the bag
 - Desiccant included in packaging
 

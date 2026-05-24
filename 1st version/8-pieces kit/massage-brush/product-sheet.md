@@ -39,12 +39,12 @@ The Massage Brush has a **beechwood body with dark wooden cylindrical nubs/pegs*
 
 ## Dimensions & Weight
 
-| Measurement | Value |
-|-------------|-------|
-| Length | 11 cm |
-| Width | 7.5 cm |
-| Height | 9 cm |
-| Net Weight | 143.5 g |
+| Measurement | Metric | US |
+|-------------|--------|------|
+| Length | 11 cm | 4.3 in |
+| Width | 7.5 cm | 3.0 in |
+| Height | 9 cm | 3.5 in |
+| Net Weight | 143.5 g | 5.1 oz |
 
 ---
 
@@ -63,8 +63,8 @@ The Massage Brush has a **beechwood body with dark wooden cylindrical nubs/pegs*
 ## Packaging
 
 - Stored inside the large handcrafted leather bag
-- Bag dimensions: 36 × 28 × 28 cm
-- Gross weight of bag + all 8 tools: 2.20 kg
+- Bag dimensions: 36 × 28 × 28 cm (14.2 × 11.0 × 11.0 in)
+- Gross weight of bag + all 8 tools: 2.20 kg (4.9 lbs)
 
 ---
 

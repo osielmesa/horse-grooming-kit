@@ -69,8 +69,8 @@ The 8-piece kit is the professional-grade version of the Masiel Spark equestrian
 
 | Detail | Value |
 |--------|-------|
-| Bag dimensions (W×D×H) | 36 × 28 × 28 cm |
-| Gross weight (bag + all 8 tools) | 2.20 kg |
+| Bag dimensions (W×D×H) | 36 × 28 × 28 cm (14.2 × 11.0 × 11.0 in) |
+| Gross weight (bag + all 8 tools) | 2.20 kg (4.9 lbs) |
 | OPP bag barcode | X004YDO8SZ |
 
 ### Master Carton
@@ -78,8 +78,8 @@ The 8-piece kit is the professional-grade version of the Masiel Spark equestrian
 | Detail | Value |
 |--------|-------|
 | Units per carton | 2 |
-| Carton size (L×W×H) | 51.5 × 36 × 26.5 cm |
-| Gross weight per carton | 5.05 kg |
+| Carton size (L×W×H) | 51.5 × 36 × 26.5 cm (20.3 × 14.2 × 10.4 in) |
+| Gross weight per carton | 5.05 kg (11.1 lbs) |
 | Carton material | 5-ply corrugated paper |
 | Sealing | Transparent gummed tape |
 | Carton barcode | FSHY2601004257 |
@@ -90,17 +90,17 @@ The 8-piece kit is the professional-grade version of the Masiel Spark equestrian
 
 ## Item Dimensions & Weights
 
-| Item | Dimensions (cm) | Net Weight |
-|------|-----------------|------------|
-| Sweat Scraper | 22 × 21.5 | 280 g |
-| Curry Comb | 22 × 10.3 × 2.5 | 152 g |
-| Mane & Tail Pin Brush | 20.5 × 7 × 3 | 95 g |
-| Hoof Pick | 16.5 × 8 × 2 | 103.5 g |
-| Grooming Sponge | 16.5 × 8 × 5 | 13.5 g |
-| Dandy Brush | 20 × 6 × 6.5 | 174.0 g |
-| Soft Finishing Brush | 17 × 9 × 7.7 | 265 g |
-| Massage Brush | 11 × 7.5 × 9 | 143.5 g |
-| **Total tools** | | **~1,227 g** |
+| Item | Dimensions (cm / in) | Net Weight |
+|------|----------------------|------------|
+| Sweat Scraper | 22 × 21.5 / 8.7 × 8.5 | 280 g / 9.9 oz |
+| Curry Comb | 22 × 10.3 × 2.5 / 8.7 × 4.1 × 1.0 | 152 g / 5.4 oz |
+| Mane & Tail Pin Brush | 20.5 × 7 × 3 / 8.1 × 2.8 × 1.2 | 95 g / 3.4 oz |
+| Hoof Pick | 16.5 × 8 × 2 / 6.5 × 3.1 × 0.8 | 103.5 g / 3.7 oz |
+| Grooming Sponge | 16.5 × 8 × 5 / 6.5 × 3.1 × 2.0 | 13.5 g / 0.5 oz |
+| Dandy Brush | 20 × 6 × 6.5 / 7.9 × 2.4 × 2.6 | 174 g / 6.1 oz |
+| Soft Finishing Brush | 17 × 9 × 7.7 / 6.7 × 3.5 × 3.0 | 265 g / 9.3 oz |
+| Massage Brush | 11 × 7.5 × 9 / 4.3 × 3.0 × 3.5 | 143.5 g / 5.1 oz |
+| **Total tools** | | **~1,227 g / ~43.3 oz** |
 
 > Note: Item-to-dimension assignment is based on best match to inspection photo order and item type. Confirm with supplier.
 

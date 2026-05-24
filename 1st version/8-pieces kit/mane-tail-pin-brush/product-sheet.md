@@ -27,14 +27,14 @@ The Mane & Tail Pin Brush in the 8-piece kit serves the same function as in the 
 
 ## Dimensions & Weight
 
-| Measurement | Value |
-|-------------|-------|
-| Total length | 20.5 cm |
-| Head width | 7 cm |
-| Thickness | 3 cm |
-| Net Weight | 95 g |
+| Measurement | Metric | US |
+|-------------|--------|------|
+| Total length | 20.5 cm | 8.1 in |
+| Head width | 7 cm | 2.8 in |
+| Thickness | 3 cm | 1.2 in |
+| Net Weight | 95 g | 3.4 oz |
 
-> Note: Smaller than the 4-piece version (24 × 8.5 × 1.7 cm / 148 g). Confirm with supplier whether this is a different SKU or a measurement discrepancy.
+> Note: Smaller than the 4-piece version (24 × 8.5 × 1.7 cm / 9.4 × 3.3 × 0.7 in / 148 g / 5.2 oz). Confirm with supplier whether this is a different SKU or a measurement discrepancy.
 
 ---
 
@@ -52,8 +52,8 @@ The Mane & Tail Pin Brush in the 8-piece kit serves the same function as in the 
 ## Packaging
 
 - Stored inside the large handcrafted leather bag
-- Bag dimensions: 36 × 28 × 28 cm
-- Gross weight of bag + all 8 tools: 2.20 kg
+- Bag dimensions: 36 × 28 × 28 cm (14.2 × 11.0 × 11.0 in)
+- Gross weight of bag + all 8 tools: 2.20 kg (4.9 lbs)
 
 ---
 
@@ -67,7 +67,7 @@ The Mane & Tail Pin Brush in the 8-piece kit serves the same function as in the 
 |-------|-------|
 | Commercial name (as sold / catalog name) | _TBD_ |
 | Internal SKU / item code | _TBD_ |
-| Same SKU as 4-piece version? | _TBD_ (confirm — dimensions differ: 20.5×7×3 vs 24×8.5×1.7 cm) |
+| Same SKU as 4-piece version? | _TBD_ (confirm — dimensions differ: 20.5×7×3 cm (8.1×2.8×1.2 in) vs 24×8.5×1.7 cm (9.4×3.3×0.7 in)) |
 | Country of origin | _TBD_ |
 | Manufacturer / supplier name | _TBD_ |
 | Supplier contact | _TBD_ |

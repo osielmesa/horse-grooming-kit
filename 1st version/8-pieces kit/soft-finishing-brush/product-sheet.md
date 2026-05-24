@@ -38,14 +38,14 @@ The Soft Finishing Brush in the 8-piece kit has a distinctly different design fr
 
 ## Dimensions & Weight
 
-| Measurement | Value |
-|-------------|-------|
-| Length | 17 cm |
-| Width | 9 cm |
-| Height (with bristles) | 7.7 cm |
-| Net Weight | 265 g |
+| Measurement | Metric | US |
+|-------------|--------|------|
+| Length | 17 cm | 6.7 in |
+| Width | 9 cm | 3.5 in |
+| Height (with bristles) | 7.7 cm | 3.0 in |
+| Net Weight | 265 g | 9.3 oz |
 
-> Largest and heaviest brush in the 8-piece set. Slightly different proportions from the 4-piece version (19.5 × 8.5 × 8.5 cm / 231 g) — confirm with supplier whether it is a different SKU.
+> Largest and heaviest brush in the 8-piece set. Slightly different proportions from the 4-piece version (19.5 × 8.5 × 8.5 cm / 7.7 × 3.3 × 3.3 in / 231 g / 8.1 oz) — confirm with supplier whether it is a different SKU.
 
 ---
 
@@ -62,8 +62,8 @@ The Soft Finishing Brush in the 8-piece kit has a distinctly different design fr
 ## Packaging
 
 - Stored inside the large handcrafted leather bag
-- Bag dimensions: 36 × 28 × 28 cm
-- Gross weight of bag + all 8 tools: 2.20 kg
+- Bag dimensions: 36 × 28 × 28 cm (14.2 × 11.0 × 11.0 in)
+- Gross weight of bag + all 8 tools: 2.20 kg (4.9 lbs)
 
 ---
 
