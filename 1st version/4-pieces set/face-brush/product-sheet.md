@@ -43,7 +43,9 @@ The Face Brush is the smallest and most delicate brush in the set, specifically 
 |-------------|--------|------|
 | Length | 12 cm | 4.7 in |
 | Width | 7.5 cm | 3.0 in |
-| Height (with bristles) | 10 cm | 3.9 in |
+| Body height | 2.5 cm | 1.0 in |
+| Bristle height | 2.5 cm | 1.0 in |
+| Total height | 5 cm | 2.0 in |
 | Net Weight | 156.5 g | 5.5 oz |
 
 > Smallest brush in the set — compact size for precise use on delicate areas.
@@ -64,7 +66,7 @@ The Face Brush is the smallest and most delicate brush in the set, specifically 
 ## Packaging
 
 - Stored inside the handcrafted leather bag
-- Leather bag dimensions: 25 × 26 × 13.5 cm (9.8 × 10.2 × 5.3 in)
+- Leather bag dimensions: 27 × 27 × 13 cm (10.6 × 10.6 × 5.1 in)
 - Individual poly bag wrapping inside the bag
 - Desiccant included in packaging
 

@@ -1,6 +1,6 @@
-# Soft Finishing Brush
+# Hard Brush
 
-![Soft Finishing Brush](https://m.media-amazon.com/images/I/61oXR5x-hQL._SL1184_.jpg)
+![Hard Brush](https://m.media-amazon.com/images/I/61oXR5x-hQL._SL1184_.jpg)
 
 **Set:** Masiel Spark Premium Horse Brushes Set (4 Pieces)  
 **ASIN (Set):** B0GBYV3L65
@@ -9,7 +9,7 @@
 
 ## Description
 
-The Soft Finishing Brush is the polishing tool of the set. Designed for the final stage of grooming, it uses soft natural bristles (goat hair) to sweep away fine dust, add shine, and smooth the coat after heavier brushes have been used. Its beechwood handle provides a comfortable, balanced grip for extended grooming sessions.
+The Hard Brush is one of the main tools of the set and the one with the stiffest bristles in the entire kit. It is primarily used for removing dried mud, heavy dirt, and debris from the horse's coat, and is also used during bathing. Despite its cream/white bristle color, the bristles are very rigid and dense — the hardest of all brushes in the set. Its oval beechwood body and leather hand strap provide a secure grip during intensive grooming.
 
 ---
 
@@ -18,7 +18,7 @@ The Soft Finishing Brush is the polishing tool of the set. Designed for the fina
 | Component | Material |
 |-----------|----------|
 | Handle body | Dark-stained wood (listed as "beechwood" — actual appearance is very dark brown/walnut-toned; confirm species with supplier) |
-| Bristles | Natural goat hair (soft) — cream/white color |
+| Bristles | Natural stiff bristles — hardest in the kit; cream/white color |
 | Leather hand strap | Dark brown/chocolate smooth leather |
 | Strap attachment | Small brass rivets (one per side) |
 | Logo | Laser-engraved on back face of body |
@@ -31,7 +31,7 @@ The Soft Finishing Brush is the polishing tool of the set. Designed for the fina
 - Oval body with **very dark brown** wood — same dark wood tone as the Dandy Brush; rich grain visible
 - "MS" monogram logo laser-engraved on the back face of the oval body
 - Leather hand strap runs across the back in **dark brown/chocolate smooth leather**, stitched with dark thread, fastened with small brass rivets on each side
-- Bristles visible around the perimeter: **cream/white**, fine, and noticeably softer than the Dandy Brush
+- Bristles: **cream/white** — very dense and rigid, hardest bristles in the full kit
 - Slightly larger oval head compared to the Face Brush; same body style and construction as all three oval brushes
 
 ---
@@ -41,19 +41,21 @@ The Soft Finishing Brush is the polishing tool of the set. Designed for the fina
 | Measurement | Metric | US |
 |-------------|--------|------|
 | Length | 19.5 cm | 7.7 in |
-| Width | 8.5 cm | 3.3 in |
-| Height (with bristles) | 8.5 cm | 3.3 in |
+| Width | 9 cm | 3.5 in |
+| Body height | 2 cm | 0.8 in |
+| Bristle height | 6 cm | 2.4 in |
+| Total height | 8 cm | 3.1 in |
 | Net Weight | 231 g | 8.1 oz |
 
 ---
 
 ## Function & Use
 
-- Final-stage coat polishing
-- Removes fine dust and loose hair after the dandy brush
-- Brings out the natural shine of the coat
-- Suitable for sensitive areas where a stiff brush would be too harsh
-- Safe for daily use on coat, neck, and hindquarters
+- Main cleaning brush for removing dried mud and heavy dirt from the coat
+- Used during bathing to work shampoo into the coat
+- First or second brush used in the grooming sequence
+- Suitable for body, neck, hindquarters, and legs
+- Not recommended for face or sensitive areas
 
 ---
 ---
@@ -61,7 +63,7 @@ The Soft Finishing Brush is the polishing tool of the set. Designed for the fina
 ## Packaging
 
 - Stored inside the handcrafted leather bag
-- Leather bag dimensions: 25 × 26 × 13.5 cm (9.8 × 10.2 × 5.3 in)
+- Leather bag dimensions: 27 × 27 × 13 cm (10.6 × 10.6 × 5.1 in)
 - Individual poly bag wrapping inside the bag
 - Desiccant included in packaging
 
@@ -96,16 +98,16 @@ The Soft Finishing Brush is the polishing tool of the set. Designed for the fina
 
 | Field | Value |
 |-------|-------|
-| Bristle animal source (confirmed) | _TBD_ (listed as goat hair — confirm breed / grade) |
+| Bristle animal source (confirmed) | _TBD_ (confirm species — listed as goat hair but stiffness suggests horsehair or other stiff fiber) |
 | Bristle length (mm) | _TBD_ |
 | Bristle diameter per strand (mm or microns) | _TBD_ |
 | Number of bristle tufts (total) | _TBD_ |
 | Number of bristle rows | _TBD_ |
 | Tuft spacing (mm) | _TBD_ |
-| Bristle color | Cream/white (natural goat hair color — confirmed from real photos) |
+| Bristle color | Cream/white (confirmed from real photos) |
 | Bristle setting method | _TBD_ (stapled / glued / hand-tied?) |
 | Bristle tip shape | _TBD_ (straight cut / flagged / rounded tips?) |
-| Bristle stiffness rating | _TBD_ (soft / medium — relative to other brushes in set) |
+| Bristle stiffness rating | Hardest in the kit (confirmed by owner — stiffer than Dandy Brush) |
 
 ### Logo & Branding
 

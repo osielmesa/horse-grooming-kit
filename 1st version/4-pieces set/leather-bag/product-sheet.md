@@ -42,9 +42,9 @@ The Handcrafted Leather Bag is the storage and presentation unit of the 4-piece 
 
 | Measurement | Metric | US |
 |-------------|--------|------|
-| Width | 25 cm | 9.8 in |
-| Depth | 26 cm | 10.2 in |
-| Height | 13.5 cm | 5.3 in |
+| Width | 27 cm | 10.6 in |
+| Depth | 27 cm | 10.6 in |
+| Height | 13 cm | 5.1 in |
 | Gross Weight (with tools) | 1.15 kg | 2.5 lbs |
 
 ---
@@ -55,10 +55,10 @@ Holds all 4 tools from the set:
 
 | Tool | Dimensions (cm / in) | Weight |
 |------|----------------------|--------|
-| Soft Finishing Brush | 19.5 × 8.5 × 8.5 / 7.7 × 3.3 × 3.3 | 231 g / 8.1 oz |
-| Dandy Brush (Hard) | 19 × 8.5 × 14 / 7.5 × 3.3 × 5.5 | 275.5 g / 9.7 oz |
-| Face Brush | 12 × 7.5 × 10 / 4.7 × 3.0 × 3.9 | 156.5 g / 5.5 oz |
-| Mane & Tail Pin Brush | 24 × 8.5 × 1.7 / 9.4 × 3.3 × 0.7 | 148 g / 5.2 oz |
+| Hard Brush | 19.5 × 9 × 8 / 7.7 × 3.5 × 3.1 | 231 g / 8.1 oz |
+| Dandy Brush (Hard) | 19.5 × 9 × 4.5 / 7.7 × 3.5 × 1.8 | 275.5 g / 9.7 oz |
+| Face Brush | 12 × 7.5 × 5 / 4.7 × 3.0 × 2.0 | 156.5 g / 5.5 oz |
+| Mane & Tail Pin Brush | 24.5 × 9 × 4 / 9.6 × 3.5 × 1.6 | 148 g / 5.2 oz |
 | **Total tools weight** | | **811 g / 28.6 oz** |
 
 ---

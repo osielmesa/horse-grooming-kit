@@ -31,12 +31,12 @@ The Mane & Tail Pin Brush is the longest tool in the set. Unlike the three oval 
 
 | Measurement | Metric | US |
 |-------------|--------|------|
-| Total length | 24 cm | 9.4 in |
-| Head width | 8.5 cm | 3.3 in |
-| Thickness | 1.7 cm | 0.7 in |
+| Length | 24.5 cm | 9.6 in |
+| Width | 9 cm | 3.5 in |
+| Body height | 1.5 cm | 0.6 in |
+| Pin height | 2.5 cm | 1.0 in |
+| Total height | 4 cm | 1.6 in |
 | Net Weight | 148 g | 5.2 oz |
-
-> Flattest and longest item in the set. The 1.7 cm (0.7 in) profile is consistent with the thin oval head of a pin brush.
 
 ---
 
@@ -67,7 +67,7 @@ The Mane & Tail Pin Brush is the longest tool in the set. Unlike the three oval 
 ## Packaging
 
 - Stored inside the handcrafted leather bag
-- Leather bag dimensions: 25 × 26 × 13.5 cm (9.8 × 10.2 × 5.3 in)
+- Leather bag dimensions: 27 × 27 × 13 cm (10.6 × 10.6 × 5.1 in)
 - Individual poly bag wrapping inside the bag
 - Desiccant included in packaging
 
