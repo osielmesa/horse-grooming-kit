@@ -55,8 +55,8 @@ Holds all 4 tools from the set:
 
 | Tool | Dimensions (cm / in) | Weight |
 |------|----------------------|--------|
-| Hard Brush | 19.5 × 9 × 8 / 7.7 × 3.5 × 3.1 | 231 g / 8.1 oz |
-| Dandy Brush (Hard) | 19.5 × 9 × 4.5 / 7.7 × 3.5 × 1.8 | 275.5 g / 9.7 oz |
+| Dandy Brush (Hard) | 19.5 × 9 × 8 / 7.7 × 3.5 × 3.1 | 231 g / 8.1 oz |
+| Soft Brush | 19.5 × 9 × 4.5 / 7.7 × 3.5 × 1.8 | 275.5 g / 9.7 oz |
 | Face Brush | 12 × 7.5 × 5 / 4.7 × 3.0 × 2.0 | 156.5 g / 5.5 oz |
 | Mane & Tail Pin Brush | 24.5 × 9 × 4 / 9.6 × 3.5 × 1.6 | 148 g / 5.2 oz |
 | **Total tools weight** | | **811 g / 28.6 oz** |

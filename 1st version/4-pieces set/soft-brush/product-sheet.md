@@ -1,6 +1,6 @@
-# Hard Brush
+# Soft Brush
 
-![Hard Brush](https://m.media-amazon.com/images/I/61oXR5x-hQL._SL1184_.jpg)
+![Soft Brush](https://m.media-amazon.com/images/I/51NjQMtBZAL._SL1184_.jpg)
 
 **Set:** Masiel Spark Premium Horse Brushes Set (4 Pieces)  
 **ASIN (Set):** B0GBYV3L65
@@ -9,7 +9,7 @@
 
 ## Description
 
-The Hard Brush is one of the main tools of the set and the one with the stiffest bristles in the entire kit. It is primarily used for removing dried mud, heavy dirt, and debris from the horse's coat, and is also used during bathing. Despite its cream/white bristle color, the bristles are very rigid and dense — the hardest of all brushes in the set. Its oval beechwood body and leather hand strap provide a secure grip during intensive grooming.
+The Soft Brush is the finishing tool of the set. Despite its two-tone bristle pattern, it is softer than the Dandy Brush and is used for the final stages of grooming — removing fine dust, smoothing the coat, and adding shine after heavier brushes have been used.
 
 ---
 
@@ -18,8 +18,8 @@ The Hard Brush is one of the main tools of the set and the one with the stiffest
 | Component | Material |
 |-----------|----------|
 | Handle body | Dark-stained wood (listed as "beechwood" — actual appearance is very dark brown/walnut-toned; confirm species with supplier) |
-| Bristles | Natural stiff bristles — hardest in the kit; cream/white color |
-| Leather hand strap | Dark brown/chocolate smooth leather |
+| Bristles | Natural soft bristles — two-tone: cream/white outer + dark brown/black inner |
+| Leather hand strap | Gray/taupe smooth leather (outer/grain face); natural tan suede texture (inner/flesh face) |
 | Strap attachment | Small brass rivets (one per side) |
 | Logo | Laser-engraved on back face of body |
 | Construction | Handcrafted |
@@ -28,11 +28,11 @@ The Hard Brush is one of the main tools of the set and the one with the stiffest
 
 ## Visual Details (from Real Product Photos — Google Drive, May 2026)
 
-- Oval body with **very dark brown** wood — same dark wood tone as the Dandy Brush; rich grain visible
-- "MS" monogram logo laser-engraved on the back face of the oval body
-- Leather hand strap runs across the back in **dark brown/chocolate smooth leather**, stitched with dark thread, fastened with small brass rivets on each side
-- Bristles: **cream/white** — very dense and rigid, hardest bristles in the full kit
-- Slightly larger oval head compared to the Face Brush; same body style and construction as all three oval brushes
+- Oval body with **very dark brown** wood — much darker than typical light beechwood; rich grain visible (appears walnut-toned or dark-stained)
+- "MS" monogram logo laser-engraved on the upper/back face of the oval body
+- Leather hand strap runs across the back of the body; outer face is **gray/taupe smooth leather**, inner face is natural **tan suede** for grip — fastened with small brass rivets on each side
+- Bristle face shows a clear **two-tone pattern**: cream/white bristles on the outer perimeter; dark brown/black bristles filling the center core
+- Softer than the Dandy Brush — for coat finishing and polishing
 
 ---
 
@@ -43,19 +43,19 @@ The Hard Brush is one of the main tools of the set and the one with the stiffest
 | Length | 19.5 cm | 7.7 in |
 | Width | 9 cm | 3.5 in |
 | Body height | 2 cm | 0.8 in |
-| Bristle height | 6 cm | 2.4 in |
-| Total height | 8 cm | 3.1 in |
-| Net Weight | 231 g | 8.1 oz |
+| Bristle height | 2.5 cm | 1.0 in |
+| Total height | 4.5 cm | 1.8 in |
+| Net Weight | 275.5 g | 9.7 oz |
 
 ---
 
 ## Function & Use
 
-- Main cleaning brush for removing dried mud and heavy dirt from the coat
-- Used during bathing to work shampoo into the coat
-- First or second brush used in the grooming sequence
-- Suitable for body, neck, hindquarters, and legs
-- Not recommended for face or sensitive areas
+- Final-stage coat polishing and finishing
+- Removes fine dust and loose hair after the Dandy Brush
+- Brings out the natural shine of the coat
+- Suitable for body, neck, and hindquarters
+- Softer than the Dandy Brush — safe for more sensitive areas
 
 ---
 ---
@@ -88,8 +88,8 @@ The Hard Brush is one of the main tools of the set and the one with the stiffest
 | Field | Value |
 |-------|-------|
 | Wood species (exact botanical name) | _TBD_ (listed as "beechwood" — confirm if European or Chinese beech) |
-| Wood treatment / surface finish | Smooth polished/lacquered finish (confirmed from real photos) |
-| Wood color | Very dark brown — appears walnut or dark-stained; confirm species with supplier |
+| Wood treatment / surface finish | Smooth polished/lacquered finish (confirmed from real photos — dark, even surface) |
+| Wood color | Very dark brown — appears walnut or dark-stained (NOT light color); confirm species with supplier |
 | Handle shape — cross-section | _TBD_ (oval / rectangular / ergonomic curve?) |
 | Handle grip area length | _TBD_ (cm) |
 | Wood moisture content | _TBD_ (note: factory could not measure at inspection) |
@@ -98,24 +98,24 @@ The Hard Brush is one of the main tools of the set and the one with the stiffest
 
 | Field | Value |
 |-------|-------|
-| Bristle animal source (confirmed) | _TBD_ (confirm species — listed as goat hair but stiffness suggests horsehair or other stiff fiber) |
+| Bristle animal source (confirmed) | _TBD_ (listed as horsehair — confirm grade / origin) |
 | Bristle length (mm) | _TBD_ |
 | Bristle diameter per strand (mm or microns) | _TBD_ |
 | Number of bristle tufts (total) | _TBD_ |
 | Number of bristle rows | _TBD_ |
 | Tuft spacing (mm) | _TBD_ |
-| Bristle color | Cream/white (confirmed from real photos) |
+| Bristle color | Two-tone: cream/white on outer perimeter, dense dark brown/black in center core (confirmed from real photos) |
 | Bristle setting method | _TBD_ (stapled / glued / hand-tied?) |
 | Bristle tip shape | _TBD_ (straight cut / flagged / rounded tips?) |
-| Bristle stiffness rating | Hardest in the kit (confirmed by owner — stiffer than Dandy Brush) |
+| Bristle stiffness rating | _TBD_ (hard / extra hard — relative to other brushes in set) |
 
 ### Logo & Branding
 
 | Field | Value |
 |-------|-------|
-| Logo position on handle | Back face of oval body (visible when holding the brush) |
+| Logo position on handle | Back/top face of oval body — upper oval section, above the leather strap |
 | Logo application method | Laser-engraved (confirmed from real photos) |
-| Logo color | Natural wood (engraved recess, no fill) |
+| Logo color | Natural wood (no fill — engraved recess in dark wood) |
 
 ### Procurement & Commercial
 

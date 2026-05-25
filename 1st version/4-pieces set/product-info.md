@@ -21,8 +21,8 @@ Masiel Spark presents a premium line of equestrian grooming kits designed for ri
 
 | Item | Description |
 |------|-------------|
-| Hard Brush | Oval body brush with very stiff cream/white natural bristles and leather hand strap — hardest brush in the kit, for removing mud and bathing |
-| Dandy Brush (Hard) | Oval body brush with stiff black natural bristles and leather hand strap — for removing heavy dirt and mud |
+| Dandy Brush (Hard) | Oval body brush with very stiff cream/white natural bristles and leather hand strap — hardest brush in the kit, for removing mud and bathing |
+| Soft Brush | Oval body brush with two-tone natural bristles and leather hand strap — for coat finishing and polishing |
 | Specialized Face Brush | Small oval brush with ultra-soft white natural bristles and leather hand strap — for delicate facial areas |
 | Mane & Tail Pin Brush | Long-handled paddle brush with metal pins on rubber cushion pad — for detangling mane and tail |
 | Handcrafted Leather Bag | Compact, portable storage bag for the set |
