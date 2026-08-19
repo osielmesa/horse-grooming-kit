@@ -69,8 +69,8 @@ The 8-piece kit is the professional-grade version of the Masiel Spark equestrian
 
 | Detail | Value |
 |--------|-------|
-| Bag dimensions (W×D×H) | 36 × 28 × 28 cm (14.2 × 11.0 × 11.0 in) |
-| Gross weight (bag + all 8 tools) | 2.20 kg (4.9 lbs) |
+| Bag dimensions (W×D×H) | 34 × 26.5 × 27 cm (13.4 × 10.4 × 10.6 in) |
+| Gross weight (bag + all 8 tools) | 2.25 kg (5.0 lbs) |
 | OPP bag barcode | X004YDO8SZ |
 
 ### Master Carton
@@ -92,17 +92,19 @@ The 8-piece kit is the professional-grade version of the Masiel Spark equestrian
 
 | Item | Dimensions (cm / in) | Net Weight |
 |------|----------------------|------------|
-| Sweat Scraper | 22 × 21.5 / 8.7 × 8.5 | 280 g / 9.9 oz |
-| Curry Comb | 22 × 10.3 × 2.5 / 8.7 × 4.1 × 1.0 | 152 g / 5.4 oz |
-| Mane & Tail Pin Brush | 20.5 × 7 × 3 / 8.1 × 2.8 × 1.2 | 95 g / 3.4 oz |
-| Hoof Pick | 16.5 × 8 × 2 / 6.5 × 3.1 × 0.8 | 103.5 g / 3.7 oz |
-| Grooming Sponge | 16.5 × 8 × 5 / 6.5 × 3.1 × 2.0 | 13.5 g / 0.5 oz |
-| Dandy Brush | 20 × 6 × 6.5 / 7.9 × 2.4 × 2.6 | 174 g / 6.1 oz |
-| Soft Finishing Brush | 17 × 9 × 7.7 / 6.7 × 3.5 × 3.0 | 265 g / 9.3 oz |
-| Massage Brush | 11 × 7.5 × 9 / 4.3 × 3.0 × 3.5 | 143.5 g / 5.1 oz |
+| Sweat Scraper | 21.5 × 21.5 × 5.9 / 8.5 × 8.5 × 2.3 | 280 g / 9.9 oz |
+| Curry Comb | 22 × 10 × 2.5 / 8.7 × 3.9 × 1.0 | 152 g / 5.4 oz |
+| Mane & Tail Pin Brush | 20.8 × 6.8 × 3.5 / 8.2 × 2.7 × 1.4 | 95 g / 3.4 oz |
+| Hoof Pick | 17.5 × 7.5 / 6.9 × 3.0 | 103.5 g / 3.7 oz |
+| Grooming Sponge | 16 × 8 × 5 / 6.3 × 3.1 × 2.0 | 13.5 g / 0.5 oz |
+| Dandy Brush | 17 × 9 × 4.5 / 6.7 × 3.5 × 1.8 | 265 g / 9.3 oz |
+| Soft Finishing Brush | 20 × 6 × 6.5 / 7.9 × 2.4 × 2.6 | 174 g / 6.1 oz |
+| Massage Brush | 11 × 7.5 × 4.5 / 4.3 × 3.0 × 1.8 | 143.5 g / 5.1 oz |
 | **Total tools** | | **~1,227 g / ~43.3 oz** |
 
-> Note: Item-to-dimension assignment is based on best match to inspection photo order and item type. Confirm with supplier.
+> **Revised.** Dimensions come from a physical measurement of a 1st-version sample; the earlier figures were assigned to items by best guess from inspection photo order and several were wrong.
+>
+> The most consequential fix: **the Dandy Brush and Soft Finishing Brush had their measurement sets swapped.** The dandy is the broad, short-bristled brush (17 × 9 × 4.5, bristles 2.5 cm); the finishing brush is the long, narrow one (20 × 6 × 6.5, bristles 4.5 cm). Weights have been reassigned to match but are still unverified.
 
 ---
 
@@ -116,3 +118,4 @@ The 8-piece kit is the professional-grade version of the Masiel Spark equestrian
 
 - Amazon product listing (unavailable — last known URL): https://www.amazon.com/Masiel-Spark-Premium-Grooming-Pieces/dp/B0GBZJVY8B
 - Effition Inspection Report — Report No. Ef20260109 (Jan 9, 2026)
+- Physical measurement of a 1st-version sample (Aug 2026) — source for all item dimensions above

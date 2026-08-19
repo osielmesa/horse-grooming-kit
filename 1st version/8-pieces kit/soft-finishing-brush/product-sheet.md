@@ -40,12 +40,17 @@ The Soft Finishing Brush in the 8-piece kit has a distinctly different design fr
 
 | Measurement | Metric | US |
 |-------------|--------|------|
-| Length | 17 cm | 6.7 in |
-| Width | 9 cm | 3.5 in |
-| Height (with bristles) | 7.7 cm | 3.0 in |
-| Net Weight | 265 g | 9.3 oz |
+| Length | 20 cm | 7.9 in |
+| Width | 6 cm | 2.4 in |
+| Height (with bristles) | 6.5 cm | 2.6 in |
+| Bristle length | 4.5 cm | 1.8 in |
+| Net Weight | 174 g | 6.1 oz |
 
-> Largest and heaviest brush in the 8-piece set. Slightly different proportions from the 4-piece version (19.5 × 8.5 × 8.5 cm / 7.7 × 3.3 × 3.3 in / 231 g / 8.1 oz) — confirm with supplier whether it is a different SKU.
+> **Correction applied.** Earlier revisions listed 17 × 9 × 7.7 cm / 265 g. Those are the Dandy Brush's figures — the two brushes had their measurement sets swapped throughout this documentation.
+>
+> Dimensions above come from a physical measurement of a 1st-version sample. The weight is the earlier report's figure with the swapped assignment corrected, and remains unverified.
+>
+> This is the longest and narrowest brush in the set, with the longest bristles — the opposite proportions to the broad, short-bristled Dandy Brush.
 
 ---
 
@@ -62,8 +67,8 @@ The Soft Finishing Brush in the 8-piece kit has a distinctly different design fr
 ## Packaging
 
 - Stored inside the large handcrafted leather bag
-- Bag dimensions: 36 × 28 × 28 cm (14.2 × 11.0 × 11.0 in)
-- Gross weight of bag + all 8 tools: 2.20 kg (4.9 lbs)
+- Bag dimensions: 34 × 26.5 × 27 cm (13.4 × 10.4 × 10.6 in)
+- Gross weight of bag + all 8 tools: 2.25 kg (5.0 lbs)
 
 ---
 

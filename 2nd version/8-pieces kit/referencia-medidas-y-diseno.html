@@ -1,0 +1,846 @@
+<title>Kit 8 Piezas — Referencia de Medidas</title>
+
+<style>
+  :root{
+    --paper:#EAEDE6;
+    --sheet:#F6F8F3;
+    --ink:#23271F;
+    --ink-soft:#5C6356;
+    --rule:#C3C9BB;
+    --accent:#2C5F8A;
+    --warn:#8A5A14;
+    --ok:#4A6F45;
+    --wood:#DFD3BC;
+    --metal:#C8CCC6;
+    --leather:#9E7350;
+    --shadow:rgba(35,39,31,.09);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --paper:#171A15;
+      --sheet:#1F231C;
+      --ink:#E3E7DC;
+      --ink-soft:#9BA394;
+      --rule:#3A4034;
+      --accent:#7FB2DC;
+      --warn:#D6A552;
+      --ok:#8FB98A;
+      --wood:#5A5040;
+      --metal:#4E534C;
+      --leather:#6E4E36;
+      --shadow:rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#171A15;
+    --sheet:#1F231C;
+    --ink:#E3E7DC;
+    --ink-soft:#9BA394;
+    --rule:#3A4034;
+    --accent:#7FB2DC;
+    --warn:#D6A552;
+    --ok:#8FB98A;
+    --wood:#5A5040;
+    --metal:#4E534C;
+    --leather:#6E4E36;
+    --shadow:rgba(0,0,0,.35);
+  }
+  :root[data-theme="light"]{
+    --paper:#EAEDE6;
+    --sheet:#F6F8F3;
+    --ink:#23271F;
+    --ink-soft:#5C6356;
+    --rule:#C3C9BB;
+    --accent:#2C5F8A;
+    --warn:#8A5A14;
+    --ok:#4A6F45;
+    --wood:#DFD3BC;
+    --metal:#C8CCC6;
+    --leather:#9E7350;
+    --shadow:rgba(35,39,31,.09);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1000px;margin:0 auto;padding:48px 24px 96px;}
+
+  .mono{font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-variant-numeric:tabular-nums;}
+
+  header.doc{border-bottom:2px solid var(--ink);padding-bottom:20px;margin-bottom:8px;}
+  .eyebrow{
+    font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--ink-soft);font-weight:600;
+    font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  h1{
+    font-size:clamp(28px,5vw,44px);line-height:1.08;margin:10px 0 12px;
+    letter-spacing:-.022em;font-weight:700;text-wrap:balance;
+  }
+  .lede{font-size:17px;color:var(--ink-soft);max-width:62ch;margin:0;}
+
+  .meta{
+    display:flex;flex-wrap:wrap;gap:0 32px;
+    padding:14px 0 0;font-size:12.5px;color:var(--ink-soft);
+  }
+  .meta div{display:flex;gap:8px;}
+  .meta b{color:var(--ink);font-weight:600;}
+
+  h2{
+    font-size:12px;letter-spacing:.15em;text-transform:uppercase;font-weight:700;
+    color:var(--ink-soft);margin:56px 0 18px;padding-bottom:8px;
+    border-bottom:1px solid var(--rule);
+    font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+  }
+
+  .callout{
+    background:var(--sheet);border-left:3px solid var(--warn);
+    padding:18px 22px;margin:28px 0;border-radius:0 4px 4px 0;
+  }
+  .callout h3{
+    margin:0 0 8px;font-size:14px;font-weight:700;letter-spacing:-.01em;
+    color:var(--warn);
+  }
+  .callout p{margin:0 0 8px;font-size:14.5px;line-height:1.62;}
+  .callout p:last-child{margin-bottom:0;}
+
+  .legend{display:flex;flex-wrap:wrap;gap:10px 20px;margin:22px 0 0;font-size:12.5px;color:var(--ink-soft);}
+  .legend span{display:flex;align-items:center;gap:7px;}
+  .swatch{width:22px;height:3px;border-radius:2px;flex:none;}
+
+  /* Drawing sheet */
+  .sheet{
+    background:var(--sheet);border:1px solid var(--rule);border-radius:5px;
+    margin:0 0 26px;overflow:hidden;box-shadow:0 1px 3px var(--shadow);
+  }
+  .titleblock{
+    display:flex;flex-wrap:wrap;align-items:baseline;gap:0 18px;
+    padding:13px 20px;border-bottom:1px solid var(--rule);
+  }
+  .titleblock .name{font-size:16px;font-weight:700;letter-spacing:-.012em;}
+  .titleblock .code{
+    font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:11px;color:var(--ink-soft);letter-spacing:.06em;
+  }
+  .titleblock .src{margin-left:auto;font-size:11px;color:var(--ink-soft);
+    font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;}
+
+  .draw{padding:22px 20px 8px;overflow-x:auto;}
+  .draw svg{display:block;width:100%;height:auto;margin:0 auto;}
+
+  figure{margin:0;}
+  figcaption{
+    padding:4px 20px 18px;font-size:12.5px;color:var(--ink-soft);
+    line-height:1.55;
+  }
+
+  /* SVG classes */
+  .out{fill:none;stroke:currentColor;stroke-width:1.6;stroke-linejoin:round;}
+  .wood{fill:var(--wood);stroke:currentColor;stroke-width:1.6;stroke-linejoin:round;}
+  .metal{fill:var(--metal);stroke:currentColor;stroke-width:1.5;stroke-linejoin:round;}
+  .leather{fill:var(--leather);stroke:currentColor;stroke-width:1.4;}
+  .hair{fill:url(#bristle);stroke:currentColor;stroke-width:1.4;}
+  .wire{fill:url(#wirefill);stroke:currentColor;stroke-width:1.4;}
+  .thin{fill:none;stroke:currentColor;stroke-width:1;opacity:.5;}
+  .ext{stroke:currentColor;stroke-width:.8;opacity:.34;stroke-dasharray:3 3;}
+  .dim{stroke:var(--accent);stroke-width:1.15;fill:none;}
+  .dimhead{fill:var(--accent);}
+  .dt{
+    fill:var(--accent);font-size:12px;font-weight:600;
+    font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  .dt-in{
+    fill:var(--accent);opacity:.68;font-size:10px;font-weight:500;
+    font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  .vw{
+    fill:currentColor;opacity:.5;font-size:10px;letter-spacing:.13em;
+    font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  .note{
+    fill:var(--warn);font-size:11px;
+    font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+  }
+
+  /* Table */
+  .tablewrap{overflow-x:auto;border:1px solid var(--rule);border-radius:5px;background:var(--sheet);}
+  table{border-collapse:collapse;width:100%;min-width:660px;font-size:13.5px;}
+  th,td{padding:11px 14px;text-align:left;border-bottom:1px solid var(--rule);}
+  th{
+    font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);
+    font-weight:700;white-space:nowrap;
+    font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  tbody tr:last-child td{border-bottom:none;}
+  td.num{font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;font-variant-numeric:tabular-nums;white-space:nowrap;}
+  td.piece{font-weight:600;white-space:nowrap;}
+  .flag{color:var(--warn);font-weight:600;}
+  td em{
+    display:block;font-style:normal;font-size:11px;opacity:.6;
+    font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  td:not(.num) em{display:inline;font-size:11.5px;}
+  tr.tot td{background:var(--paper);font-weight:600;border-top:2px solid var(--rule);}
+
+  /* Amazon image slots */
+  .slots{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));margin:24px 0 0;}
+  .slot{
+    background:var(--sheet);border:1px solid var(--rule);border-radius:5px;
+    padding:16px 18px;display:flex;flex-direction:column;gap:9px;
+  }
+  .slot .n{
+    font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:10.5px;letter-spacing:.13em;color:var(--accent);font-weight:700;
+  }
+  .slot h4{margin:0;font-size:15px;font-weight:700;letter-spacing:-.012em;line-height:1.3;}
+  .slot p{margin:0;font-size:13.5px;color:var(--ink-soft);line-height:1.56;}
+  .slot .copy{
+    font-size:13.5px;padding:9px 12px;background:var(--paper);
+    border-left:2px solid var(--accent);border-radius:0 3px 3px 0;color:var(--ink);
+  }
+  .slot .copy b{display:block;font-weight:700;margin-bottom:3px;}
+  .slot.locked{border-color:var(--warn);}
+  .slot.locked .n{color:var(--warn);}
+  .slot.locked .copy{border-left-color:var(--warn);}
+
+  .rank{list-style:none;padding:0;margin:24px 0 0;counter-reset:r;
+    display:flex;flex-direction:column;gap:9px;}
+  .rank li{
+    counter-increment:r;display:flex;gap:15px;align-items:baseline;
+    padding:13px 17px;background:var(--sheet);border:1px solid var(--rule);border-radius:4px;
+  }
+  .rank li::before{
+    content:counter(r);flex:none;min-width:16px;
+    font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:12px;font-weight:700;color:var(--accent);
+  }
+  .rank b{display:block;font-size:14.5px;margin-bottom:3px;letter-spacing:-.008em;}
+  .rank span{font-size:13.5px;color:var(--ink-soft);line-height:1.56;}
+
+  footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--rule);
+    font-size:12.5px;color:var(--ink-soft);}
+  footer p{margin:0 0 6px;}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <marker id="dimArrow" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,1 L10,5 L0,9 z" class="dimhead"/>
+    </marker>
+    <pattern id="bristle" width="7" height="9" patternUnits="userSpaceOnUse">
+      <line x1="3.5" y1="0" x2="3.5" y2="9" stroke="currentColor" stroke-width="1.15" opacity=".42"/>
+    </pattern>
+    <pattern id="wirefill" width="4.5" height="9" patternUnits="userSpaceOnUse">
+      <line x1="2.25" y1="0" x2="2.25" y2="9" stroke="currentColor" stroke-width="1" opacity=".62"/>
+    </pattern>
+  </defs>
+</svg>
+
+<div class="wrap">
+
+<header class="doc">
+  <div class="eyebrow">Masiel Spark · Ficha técnica dimensional</div>
+  <h1>Kit de Aseo Equino — 8 Piezas</h1>
+  <p class="lede">Esquemas acotados de las ocho herramientas y la bolsa, para usar como referencia de proporción y medida en el material gráfico.</p>
+  <div class="meta">
+    <div><b>Versión</b> 2nd version</div>
+    <div><b>Fuente principal</b> Effition Ef20260805</div>
+    <div><b>Unidades</b> cm y pulgadas</div>
+  </div>
+</header>
+
+<div class="legend">
+  <span><i class="swatch" style="background:var(--accent)"></i> Cota verificada</span>
+  <span><i class="swatch" style="background:var(--warn)"></i> Cota con matiz — leer la nota</span>
+  <span><i class="swatch" style="background:var(--rule)"></i> Línea auxiliar</span>
+</div>
+
+<div class="callout">
+  <h3>Antes de usar cualquier medida anterior a este documento</h3>
+  <p>Las fichas de producto que circulaban hasta ahora tenían <b>las medidas del dandy brush y del soft brush intercambiadas</b>. Decían que el dandy medía 20 × 6 × 6.5 cm, cuando esa es la medida del soft brush. Ambos números están corregidos aquí y verificados por dos vías independientes: el reporte de inspección y la medición física de una muestra.</p>
+  <p>Si tienes artes ya montadas con las medidas viejas, esos dos cepillos son los que hay que revisar.</p>
+</div>
+
+<h2>Cepillos de cuerpo</h2>
+
+<!-- ============ DANDY ============ -->
+<div class="sheet">
+  <div class="titleblock">
+    <span class="name">Dandy Brush</span>
+    <span class="code">CEPILLO DURO · SISAL</span>
+    <span class="src">Effition + muestra física</span>
+  </div>
+  <figure>
+    <div class="draw">
+      <svg viewBox="0 0 620 300" role="img" aria-label="Dandy brush: planta ovalada de 17 por 10 centímetros con asa de cuero de 4 centímetros, y perfil de 5 centímetros de alto con cerda de sisal de 2.5 centímetros">
+        <text x="150" y="26" class="vw" text-anchor="middle">PLANTA</text>
+        <text x="432" y="26" class="vw" text-anchor="middle">PERFIL</text>
+
+        <!-- planta -->
+        <ellipse cx="150" cy="128" rx="102" ry="60" class="wood"/>
+        <rect x="126" y="68" width="48" height="120" rx="3" class="leather"/>
+        <circle cx="138" cy="152" r="4.5" class="metal"/>
+        <circle cx="162" cy="152" r="4.5" class="metal"/>
+
+        <line x1="48" y1="192" x2="48" y2="232" class="ext"/>
+        <line x1="252" y1="192" x2="252" y2="232" class="ext"/>
+        <line x1="48" y1="224" x2="252" y2="224" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="150" y="246" class="dt" text-anchor="middle">17.0<tspan class="dt-in" x="150" dy="13">6.7″</tspan></text>
+
+        <line x1="44" y1="68" x2="14" y2="68" class="ext"/>
+        <line x1="44" y1="188" x2="14" y2="188" class="ext"/>
+        <line x1="22" y1="68" x2="22" y2="188" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="34" y="132" class="dt">10.0<tspan class="dt-in" x="34" dy="13">3.9″</tspan></text>
+
+        <line x1="126" y1="64" x2="126" y2="44" class="ext"/>
+        <line x1="174" y1="64" x2="174" y2="44" class="ext"/>
+        <line x1="126" y1="50" x2="174" y2="50" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="150" y="43" class="dt" text-anchor="middle">4.0 <tspan class="dt-in">· 1.6″</tspan></text>
+
+        <!-- perfil -->
+        <path d="M330 128 Q330 98 360 98 L504 98 Q534 98 534 128 Z" class="wood"/>
+        <rect x="330" y="128" width="204" height="30" class="hair"/>
+
+        <line x1="538" y1="98" x2="576" y2="98" class="ext"/>
+        <line x1="538" y1="158" x2="576" y2="158" class="ext"/>
+        <line x1="568" y1="98" x2="568" y2="158" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="580" y="132" class="dt">5.0<tspan class="dt-in" x="580" dy="13">2.0″</tspan></text>
+
+        <line x1="326" y1="128" x2="296" y2="128" class="ext"/>
+        <line x1="326" y1="158" x2="296" y2="158" class="ext"/>
+        <line x1="304" y1="128" x2="304" y2="158" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="298" y="180" class="dt" text-anchor="middle">2.5 <tspan class="dt-in">· 1.0″</tspan></text>
+        <text x="298" y="196" class="vw" text-anchor="middle">CERDA</text>
+      </svg>
+    </div>
+    <figcaption>Cuerpo ovalado de haya con asa de cuero remachada. La cerda es <b>sisal</b> —fibra vegetal rígida, la tradicional del dandy brush— y mantiene el mismo largo de 2.5 cm que la versión anterior en pelo natural. <b>El ancho de 10.0 cm va de remache a remache</b>, igual que en el massage brush; la madera sola mide unos 9.0 cm.</figcaption>
+  </figure>
+</div>
+
+<!-- ============ SOFT ============ -->
+<div class="sheet">
+  <div class="titleblock">
+    <span class="name">Soft Finishing Brush</span>
+    <span class="code">CEPILLO SUAVE · SIN ASA</span>
+    <span class="src">Effition + muestra física</span>
+  </div>
+  <figure>
+    <div class="draw">
+      <svg viewBox="0 0 620 300" role="img" aria-label="Soft brush: planta alargada de 19.5 por 6 centímetros sin asa, y perfil de 6 centímetros de alto con cerda suave de 4.5 centímetros">
+        <text x="150" y="26" class="vw" text-anchor="middle">PLANTA</text>
+        <text x="432" y="26" class="vw" text-anchor="middle">PERFIL</text>
+
+        <!-- planta: forma de hoja / oval apuntado -->
+        <path d="M33 128 Q60 92 150 92 Q240 92 267 128 Q240 164 150 164 Q60 164 33 128 Z" class="wood"/>
+        <text x="150" y="134" class="vw" text-anchor="middle">MS</text>
+
+        <line x1="33" y1="168" x2="33" y2="232" class="ext"/>
+        <line x1="267" y1="168" x2="267" y2="232" class="ext"/>
+        <line x1="33" y1="224" x2="267" y2="224" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="150" y="246" class="dt" text-anchor="middle">19.5<tspan class="dt-in" x="150" dy="13">7.7″</tspan></text>
+
+        <line x1="140" y1="92" x2="14" y2="92" class="ext"/>
+        <line x1="140" y1="164" x2="14" y2="164" class="ext"/>
+        <line x1="22" y1="92" x2="22" y2="164" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="34" y="132" class="dt">6.0<tspan class="dt-in" x="34" dy="13">2.4″</tspan></text>
+
+        <!-- perfil -->
+        <path d="M330 116 Q330 98 352 98 L512 98 Q534 98 534 116 Z" class="wood"/>
+        <rect x="330" y="116" width="204" height="54" class="hair"/>
+
+        <line x1="538" y1="98" x2="576" y2="98" class="ext"/>
+        <line x1="538" y1="170" x2="576" y2="170" class="ext"/>
+        <line x1="568" y1="98" x2="568" y2="170" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="580" y="138" class="dt">6.0<tspan class="dt-in" x="580" dy="13">2.4″</tspan></text>
+
+        <line x1="326" y1="116" x2="296" y2="116" class="ext"/>
+        <line x1="326" y1="170" x2="296" y2="170" class="ext"/>
+        <line x1="304" y1="116" x2="304" y2="170" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="298" y="192" class="dt" text-anchor="middle">4.5 <tspan class="dt-in">· 1.8″</tspan></text>
+        <text x="298" y="208" class="vw" text-anchor="middle">CERDA</text>
+      </svg>
+    </div>
+    <figcaption>Cuerpo alargado con extremos apuntados, sin asa de cuero — se sostiene directo en la palma. Cerda blanca larga y suave. Es el cepillo cuyas medidas estaban puestas en la ficha del dandy.</figcaption>
+  </figure>
+</div>
+
+<!-- ============ MASSAGE ============ -->
+<div class="sheet">
+  <div class="titleblock">
+    <span class="name">Massage Brush</span>
+    <span class="code">TACOS DE MADERA</span>
+    <span class="src">Effition + muestra física</span>
+  </div>
+  <figure>
+    <div class="draw">
+      <svg viewBox="0 0 620 300" role="img" aria-label="Massage brush: planta ovalada de 11 por 7.5 centímetros de madera, 9 centímetros incluyendo el asa, y perfil de 5 centímetros con tacos de madera de 1.5 centímetros">
+        <text x="150" y="26" class="vw" text-anchor="middle">PLANTA</text>
+        <text x="430" y="26" class="vw" text-anchor="middle">PERFIL</text>
+
+        <!-- planta -->
+        <ellipse cx="150" cy="130" rx="66" ry="45" class="wood"/>
+        <path d="M118 85 Q150 66 182 85 L182 175 Q150 194 118 175 Z" class="leather" opacity=".92"/>
+        <circle cx="138" cy="150" r="4" class="metal"/>
+        <circle cx="162" cy="150" r="4" class="metal"/>
+
+        <line x1="84" y1="179" x2="84" y2="232" class="ext"/>
+        <line x1="216" y1="179" x2="216" y2="232" class="ext"/>
+        <line x1="84" y1="224" x2="216" y2="224" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="150" y="246" class="dt" text-anchor="middle">11.0<tspan class="dt-in" x="150" dy="13">4.3″</tspan></text>
+
+        <line x1="106" y1="85" x2="14" y2="85" class="ext"/>
+        <line x1="106" y1="175" x2="14" y2="175" class="ext"/>
+        <line x1="22" y1="85" x2="22" y2="175" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="34" y="134" class="dt">7.5<tspan class="dt-in" x="34" dy="13">3.0″</tspan></text>
+        <text x="60" y="266" class="note" text-anchor="middle">9.0 c/asa · 3.5″</text>
+
+        <!-- perfil -->
+        <path d="M340 122 Q340 100 366 100 L494 100 Q520 100 520 122 Z" class="wood"/>
+        <path d="M366 100 Q430 78 494 100" class="leather" fill="none" stroke-width="9"/>
+        <g class="wood">
+          <rect x="348" y="122" width="13" height="18" rx="6"/>
+          <rect x="374" y="122" width="13" height="18" rx="6"/>
+          <rect x="400" y="122" width="13" height="18" rx="6"/>
+          <rect x="426" y="122" width="13" height="18" rx="6"/>
+          <rect x="452" y="122" width="13" height="18" rx="6"/>
+          <rect x="478" y="122" width="13" height="18" rx="6"/>
+          <rect x="504" y="122" width="13" height="18" rx="6"/>
+        </g>
+
+        <line x1="524" y1="100" x2="562" y2="100" class="ext"/>
+        <line x1="524" y1="140" x2="562" y2="140" class="ext"/>
+        <line x1="554" y1="100" x2="554" y2="140" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="566" y="124" class="dt">5.0<tspan class="dt-in" x="566" dy="13">2.0″</tspan></text>
+
+        <line x1="344" y1="122" x2="308" y2="122" class="ext"/>
+        <line x1="344" y1="140" x2="308" y2="140" class="ext"/>
+        <line x1="316" y1="122" x2="316" y2="140" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="310" y="162" class="dt" text-anchor="middle">1.5 <tspan class="dt-in">· 0.6″</tspan></text>
+        <text x="310" y="178" class="vw" text-anchor="middle">TACO</text>
+      </svg>
+    </div>
+    <figcaption>Óvalo de haya con tacos cilíndricos de madera oscura y asa de cuero. <b>Ojo con el ancho:</b> el reporte anota 9.0 cm medido <b>de remache a remache</b>, o sea incluyendo el asa. La madera sola mide 7.5 cm. Para dibujar el cuerpo usa 7.5; para el volumen que ocupa dentro de la bolsa, 9.0.</figcaption>
+  </figure>
+</div>
+
+<h2>Peine y crin</h2>
+
+<!-- ============ PIN BRUSH ============ -->
+<div class="sheet">
+  <div class="titleblock">
+    <span class="name">Mane &amp; Tail Pin Brush</span>
+    <span class="code">CEPILLO DE CRIN Y COLA</span>
+    <span class="src">Effition + muestra física</span>
+  </div>
+  <figure>
+    <div class="draw">
+      <svg viewBox="0 0 620 280" role="img" aria-label="Pin brush: planta de 20.5 centímetros de largo con cabezal de 7 centímetros de ancho, y perfil de 4 centímetros con púa expuesta de 1 centímetro">
+        <text x="180" y="26" class="vw" text-anchor="middle">PLANTA</text>
+        <text x="470" y="26" class="vw" text-anchor="middle">PERFIL</text>
+
+        <!-- planta: paleta -->
+        <path d="M46 110 Q46 68 96 68 Q146 68 146 110 Q146 152 96 152 Q46 152 46 110 Z" class="wood"/>
+        <ellipse cx="96" cy="110" rx="36" ry="30" fill="var(--metal)" stroke="currentColor" stroke-width="1.2" opacity=".75"/>
+        <path d="M146 96 L280 104 Q296 106 296 116 Q296 126 280 128 L146 124 Z" class="wood"/>
+        <circle cx="286" cy="116" r="5" class="thin"/>
+
+        <line x1="46" y1="156" x2="46" y2="212" class="ext"/>
+        <line x1="296" y1="132" x2="296" y2="212" class="ext"/>
+        <line x1="46" y1="204" x2="296" y2="204" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="171" y="226" class="dt" text-anchor="middle">20.5<tspan class="dt-in" x="171" dy="13">8.1″</tspan></text>
+
+        <line x1="42" y1="68" x2="14" y2="68" class="ext"/>
+        <line x1="42" y1="152" x2="14" y2="152" class="ext"/>
+        <line x1="22" y1="68" x2="22" y2="152" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="34" y="114" class="dt">7.0<tspan class="dt-in" x="34" dy="13">2.8″</tspan></text>
+
+        <!-- perfil -->
+        <path d="M366 122 Q366 106 386 106 L502 106 Q522 106 522 122 Z" class="wood"/>
+        <rect x="366" y="122" width="156" height="10" fill="var(--metal)" stroke="currentColor" stroke-width="1.2"/>
+        <g class="thin">
+          <line x1="376" y1="132" x2="376" y2="154"/><line x1="392" y1="132" x2="392" y2="154"/>
+          <line x1="408" y1="132" x2="408" y2="154"/><line x1="424" y1="132" x2="424" y2="154"/>
+          <line x1="440" y1="132" x2="440" y2="154"/><line x1="456" y1="132" x2="456" y2="154"/>
+          <line x1="472" y1="132" x2="472" y2="154"/><line x1="488" y1="132" x2="488" y2="154"/>
+          <line x1="504" y1="132" x2="504" y2="154"/><line x1="514" y1="132" x2="514" y2="154"/>
+        </g>
+
+        <line x1="526" y1="106" x2="566" y2="106" class="ext"/>
+        <line x1="526" y1="154" x2="566" y2="154" class="ext"/>
+        <line x1="558" y1="106" x2="558" y2="154" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="570" y="132" class="dt">4.0<tspan class="dt-in" x="570" dy="13">1.6″</tspan></text>
+
+        <line x1="362" y1="132" x2="326" y2="132" class="ext"/>
+        <line x1="362" y1="154" x2="326" y2="154" class="ext"/>
+        <line x1="334" y1="132" x2="334" y2="154" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="328" y="176" class="dt" text-anchor="middle">1.0 <tspan class="dt-in">· 0.4″</tspan></text>
+        <text x="328" y="192" class="vw" text-anchor="middle">PÚA</text>
+      </svg>
+    </div>
+    <figcaption>Paleta de haya con cojín de goma y púas metálicas de punta redonda. La <b>púa expuesta mide 1.0 cm</b> sobre el cojín; el reporte anota 1.8 cm porque midió desde la madera, incluyendo el espesor del cojín.</figcaption>
+  </figure>
+</div>
+
+<h2>Herramientas de metal y madera</h2>
+
+<!-- ============ HOOF PICK ============ -->
+<div class="sheet">
+  <div class="titleblock">
+    <span class="name">Hoof Pick</span>
+    <span class="code">LIMPIACASCOS · MANGO REDISEÑADO</span>
+    <span class="src">Effition + plano prototipo</span>
+  </div>
+  <figure>
+    <div class="draw">
+      <svg viewBox="0 0 620 320" role="img" aria-label="Hoof pick: perfil de 16.5 centímetros de mango con ancho de agarre de 3.7 centímetros, ancho total con brocha de 7.8 centímetros y grosor de 2.05 centímetros">
+        <text x="230" y="26" class="vw" text-anchor="middle">PERFIL</text>
+        <text x="536" y="26" class="vw" text-anchor="middle">CORTE A-A</text>
+
+        <!-- gancho metalico -->
+        <path d="M96 96 L96 62 L172 56" class="metal" fill="none" stroke-width="5" stroke-linecap="round"/>
+        <!-- mango: cabezal ancho a la izquierda, agarre ondulado a la derecha -->
+        <path d="M96 96 L150 96 Q182 96 190 112
+                 Q206 128 232 130 Q258 132 274 126
+                 Q300 118 322 122 Q344 126 344 142
+                 Q344 158 322 160 Q300 162 276 158
+                 Q252 154 228 158 Q204 162 190 156
+                 Q176 150 150 152 L96 152 Z" class="wood"/>
+        <circle cx="326" cy="141" r="9" fill="var(--paper)" stroke="currentColor" stroke-width="1.4"/>
+        <text x="150" y="128" class="vw" text-anchor="middle">MS</text>
+        <!-- brocha de alambre -->
+        <rect x="96" y="152" width="54" height="32" class="wire"/>
+
+        <!-- cota largo mango 16.5 -->
+        <line x1="96" y1="188" x2="96" y2="248" class="ext"/>
+        <line x1="352" y1="164" x2="352" y2="248" class="ext"/>
+        <line x1="96" y1="240" x2="352" y2="240" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="224" y="262" class="dt" text-anchor="middle">16.5 <tspan class="dt-in">· 6.5″</tspan></text>
+        <text x="224" y="278" class="vw" text-anchor="middle">MANGO</text>
+
+        <!-- cota ancho total 7.8 -->
+        <line x1="92" y1="96" x2="24" y2="96" class="ext"/>
+        <line x1="92" y1="184" x2="24" y2="184" class="ext"/>
+        <line x1="32" y1="96" x2="32" y2="184" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="44" y="132" class="dt">7.8 <tspan class="dt-in">· 3.1″</tspan></text>
+        <text x="44" y="148" class="vw">TOTAL</text>
+
+        <!-- cota ancho agarre 3.7 -->
+        <line x1="348" y1="122" x2="398" y2="122" class="ext"/>
+        <line x1="348" y1="160" x2="398" y2="160" class="ext"/>
+        <line x1="390" y1="122" x2="390" y2="160" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="402" y="138" class="dt">3.7 <tspan class="dt-in">· 1.5″</tspan></text>
+        <text x="402" y="154" class="vw">AGARRE</text>
+
+        <!-- corte -->
+        <rect x="500" y="98" width="72" height="46" rx="7" class="wood"/>
+        <line x1="500" y1="152" x2="500" y2="180" class="ext"/>
+        <line x1="572" y1="152" x2="572" y2="180" class="ext"/>
+        <line x1="500" y1="172" x2="572" y2="172" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="536" y="194" class="dt" text-anchor="middle">3.7<tspan class="dt-in" x="536" dy="13">1.5″</tspan></text>
+        <line x1="576" y1="98" x2="606" y2="98" class="ext"/>
+        <line x1="576" y1="144" x2="606" y2="144" class="ext"/>
+        <line x1="598" y1="98" x2="598" y2="144" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="590" y="82" class="dt" text-anchor="middle">2.05 <tspan class="dt-in">· 0.8″</tspan></text>
+      </svg>
+    </div>
+    <figcaption>Mango contorneado de haya con ondas para los dedos. El rediseño ergonómico <b>redujo el ancho de agarre de 4.3 a 3.7 cm</b> — se escogió la opción 方案1 de tres propuestas del fabricante. El adelgazamiento es solo en la zona de agarre: el cabezal donde monta la brocha no se tocó, por eso el ancho total sigue en 7.8 cm.</figcaption>
+  </figure>
+</div>
+
+<!-- ============ CURRY COMB ============ -->
+<div class="sheet">
+  <div class="titleblock">
+    <span class="name">Curry Comb</span>
+    <span class="code">ALMOHAZA DE AROS</span>
+    <span class="src">Effition + muestra física</span>
+  </div>
+  <figure>
+    <div class="draw">
+      <svg viewBox="0 0 620 280" role="img" aria-label="Curry comb: 22 centímetros de largo total, aros de 10 centímetros de diámetro, mango de 11.5 centímetros y paquete de aros de 2.45 centímetros">
+        <text x="230" y="26" class="vw" text-anchor="middle">PLANTA</text>
+        <text x="520" y="26" class="vw" text-anchor="middle">PERFIL</text>
+
+        <!-- mango torneado -->
+        <path d="M40 122 Q40 112 52 111 L150 106 Q162 106 162 116 L162 140 Q162 150 150 150 L52 145 Q40 144 40 134 Z" class="wood"/>
+        <line x1="60" y1="112" x2="60" y2="145" class="thin"/>
+        <line x1="70" y1="112" x2="70" y2="146" class="thin"/>
+        <!-- collar -->
+        <rect x="162" y="112" width="18" height="32" rx="3" class="metal"/>
+        <!-- aros concentricos -->
+        <circle cx="248" cy="128" r="60" fill="none" stroke="currentColor" stroke-width="3.5"/>
+        <circle cx="248" cy="128" r="47" fill="none" stroke="currentColor" stroke-width="3.5" opacity=".8"/>
+        <circle cx="248" cy="128" r="34" fill="none" stroke="currentColor" stroke-width="3.5" opacity=".62"/>
+        <circle cx="248" cy="128" r="21" fill="none" stroke="currentColor" stroke-width="3.5" opacity=".45"/>
+        <circle cx="248" cy="128" r="7" class="metal"/>
+
+        <line x1="40" y1="154" x2="40" y2="212" class="ext"/>
+        <line x1="308" y1="192" x2="308" y2="212" class="ext"/>
+        <line x1="40" y1="204" x2="308" y2="204" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="174" y="226" class="dt" text-anchor="middle">22.0<tspan class="dt-in" x="174" dy="13">8.7″</tspan></text>
+
+        <line x1="40" y1="154" x2="40" y2="250" class="ext"/>
+        <line x1="180" y1="148" x2="180" y2="250" class="ext"/>
+        <line x1="40" y1="242" x2="180" y2="242" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="110" y="264" class="dt" text-anchor="middle">11.5 <tspan class="dt-in">· 4.5″</tspan></text>
+        <text x="110" y="278" class="vw" text-anchor="middle">MANGO</text>
+
+        <line x1="188" y1="68" x2="188" y2="44" class="ext"/>
+        <line x1="308" y1="68" x2="308" y2="44" class="ext"/>
+        <line x1="188" y1="52" x2="308" y2="52" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="248" y="44" class="dt" text-anchor="middle">⌀ 10.0 <tspan class="dt-in">· 3.9″</tspan></text>
+
+        <!-- perfil -->
+        <rect x="470" y="98" width="30" height="120" rx="3" class="metal"/>
+        <line x1="478" y1="98" x2="478" y2="218" class="thin"/>
+        <line x1="486" y1="98" x2="486" y2="218" class="thin"/>
+        <line x1="494" y1="98" x2="494" y2="218" class="thin"/>
+        <line x1="470" y1="222" x2="470" y2="248" class="ext"/>
+        <line x1="500" y1="222" x2="500" y2="248" class="ext"/>
+        <line x1="470" y1="240" x2="500" y2="240" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="485" y="262" class="dt" text-anchor="middle">2.45<tspan class="dt-in" x="485" dy="13">1.0″</tspan></text>
+        <text x="558" y="140" class="dt">⌀ 3.2 <tspan class="dt-in">· 1.3″</tspan></text>
+        <text x="558" y="156" class="vw">MANGO</text>
+      </svg>
+    </div>
+    <figcaption>Aros metálicos concéntricos con borde dentado, unidos por un tornillo central, sobre mango torneado de haya. Cuatro aros de diámetro decreciente.</figcaption>
+  </figure>
+</div>
+
+<!-- ============ SWEAT SCRAPER ============ -->
+<div class="sheet">
+  <div class="titleblock">
+    <span class="name">Sweat Scraper</span>
+    <span class="code">SUDADERA · HOJA DE LATÓN</span>
+    <span class="src">Effition + muestra física</span>
+  </div>
+  <figure>
+    <div class="draw">
+      <svg viewBox="0 0 620 300" role="img" aria-label="Sweat scraper: 22 centímetros de largo, hoja curva de 21.5 centímetros de ancho, 6.2 centímetros de alto y mango de 11.5 centímetros">
+        <text x="200" y="26" class="vw" text-anchor="middle">FRONTAL</text>
+        <text x="500" y="26" class="vw" text-anchor="middle">PERFIL</text>
+
+        <!-- hoja curva -->
+        <path d="M74 96 Q200 44 326 96 L326 122 Q200 70 74 122 Z" class="metal"/>
+        <path d="M74 122 Q200 70 326 122 L326 136 Q200 84 74 136 Z" fill="currentColor" opacity=".72"/>
+        <circle cx="140" cy="98" r="4" class="thin"/>
+        <circle cx="200" cy="84" r="4" class="thin"/>
+        <circle cx="260" cy="98" r="4" class="thin"/>
+        <!-- soporte Y -->
+        <path d="M200 78 L200 140 M200 108 L152 98 M200 108 L248 98" stroke="var(--metal)" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <path d="M200 78 L200 140 M200 108 L152 98 M200 108 L248 98" stroke="currentColor" stroke-width="1.2" fill="none" opacity=".55"/>
+        <!-- mango -->
+        <path d="M188 140 L212 140 Q214 190 210 232 Q200 244 190 232 Q186 190 188 140 Z" class="wood"/>
+        <line x1="190" y1="160" x2="210" y2="160" class="thin"/>
+        <line x1="190" y1="170" x2="210" y2="170" class="thin"/>
+
+        <line x1="74" y1="140" x2="74" y2="268" class="ext"/>
+        <line x1="326" y1="140" x2="326" y2="268" class="ext"/>
+        <line x1="74" y1="260" x2="326" y2="260" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="200" y="282" class="dt" text-anchor="middle">21.5<tspan class="dt-in" x="200" dy="13">8.5″</tspan></text>
+
+        <line x1="70" y1="96" x2="26" y2="96" class="ext"/>
+        <line x1="184" y1="244" x2="26" y2="244" class="ext"/>
+        <line x1="34" y1="96" x2="34" y2="244" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="44" y="172" class="dt">22.0<tspan class="dt-in" x="44" dy="13">8.7″</tspan></text>
+
+        <line x1="216" y1="140" x2="368" y2="140" class="ext"/>
+        <line x1="216" y1="240" x2="368" y2="240" class="ext"/>
+        <line x1="360" y1="140" x2="360" y2="240" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="372" y="194" class="dt">11.5 <tspan class="dt-in">· 4.5″</tspan></text>
+        <text x="372" y="210" class="vw">MANGO</text>
+
+        <!-- perfil -->
+        <path d="M452 100 Q500 88 548 100 L548 174 Q500 162 452 174 Z" class="metal"/>
+        <line x1="452" y1="178" x2="452" y2="208" class="ext"/>
+        <line x1="548" y1="178" x2="548" y2="208" class="ext"/>
+        <line x1="452" y1="200" x2="548" y2="200" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="500" y="222" class="dt" text-anchor="middle">6.2<tspan class="dt-in" x="500" dy="13">2.4″</tspan></text>
+      </svg>
+    </div>
+    <figcaption>Hoja curva de latón pulido con canto de goma negra, sujeta al mango torneado por un soporte en Y. Es la pieza más pesada del kit.</figcaption>
+  </figure>
+</div>
+
+<h2>Esponja y bolsa</h2>
+
+<!-- ============ SPONGE + BAG ============ -->
+<div class="sheet">
+  <div class="titleblock">
+    <span class="name">Esponja &amp; Bolsa de Cuero</span>
+    <span class="code">ACCESORIO + CONTENEDOR</span>
+    <span class="src">Effition Ef20260805</span>
+  </div>
+  <figure>
+    <div class="draw">
+      <svg viewBox="0 0 620 300" role="img" aria-label="Esponja de 16 por 8 por 5 centímetros y bolsa de cuero de 34 por 26.5 por 27 centímetros">
+        <text x="150" y="26" class="vw" text-anchor="middle">ESPONJA</text>
+        <text x="440" y="26" class="vw" text-anchor="middle">BOLSA</text>
+
+        <!-- esponja isometrica -->
+        <path d="M60 130 L188 130 L216 106 L88 106 Z" fill="var(--wood)" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+        <path d="M60 130 L188 130 L188 170 L60 170 Z" fill="var(--wood)" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" opacity=".82"/>
+        <path d="M188 130 L216 106 L216 146 L188 170 Z" fill="var(--wood)" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" opacity=".62"/>
+
+        <line x1="60" y1="174" x2="60" y2="214" class="ext"/>
+        <line x1="188" y1="174" x2="188" y2="214" class="ext"/>
+        <line x1="60" y1="206" x2="188" y2="206" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="124" y="228" class="dt" text-anchor="middle">16.0<tspan class="dt-in" x="124" dy="13">6.3″</tspan></text>
+
+        <line x1="56" y1="130" x2="20" y2="130" class="ext"/>
+        <line x1="56" y1="170" x2="20" y2="170" class="ext"/>
+        <line x1="28" y1="130" x2="28" y2="170" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="38" y="156" class="dt">5.0<tspan class="dt-in" x="38" dy="13">2.0″</tspan></text>
+
+        <line x1="192" y1="172" x2="238" y2="150" class="ext"/>
+        <line x1="220" y1="148" x2="252" y2="132" class="ext"/>
+        <text x="248" y="176" class="dt">8.0<tspan class="dt-in" x="248" dy="13">3.1″</tspan></text>
+
+        <!-- bolsa isometrica -->
+        <path d="M340 116 L508 116 L540 90 L372 90 Z" fill="var(--leather)" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+        <path d="M340 116 L508 116 L508 236 L340 236 Z" fill="var(--leather)" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" opacity=".85"/>
+        <path d="M508 116 L540 90 L540 210 L508 236 Z" fill="var(--leather)" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" opacity=".65"/>
+        <rect x="366" y="150" width="116" height="60" rx="3" class="thin"/>
+        <path d="M396 90 Q424 62 452 90" fill="none" stroke="currentColor" stroke-width="4" opacity=".7"/>
+
+        <line x1="340" y1="240" x2="340" y2="276" class="ext"/>
+        <line x1="508" y1="240" x2="508" y2="276" class="ext"/>
+        <line x1="340" y1="268" x2="508" y2="268" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="424" y="290" class="dt" text-anchor="middle">34.0 <tspan class="dt-in">· 13.4″</tspan></text>
+
+        <line x1="512" y1="236" x2="576" y2="236" class="ext"/>
+        <line x1="544" y1="212" x2="596" y2="212" class="ext"/>
+        <text x="586" y="256" class="dt">26.5<tspan class="dt-in" x="586" dy="13">10.4″</tspan></text>
+
+        <line x1="336" y1="116" x2="300" y2="116" class="ext"/>
+        <line x1="336" y1="236" x2="300" y2="236" class="ext"/>
+        <line x1="308" y1="116" x2="308" y2="236" class="dim" marker-start="url(#dimArrow)" marker-end="url(#dimArrow)"/>
+        <text x="286" y="180" class="dt" text-anchor="middle">27.0<tspan class="dt-in" x="286" dy="13">10.6″</tspan></text>
+      </svg>
+    </div>
+    <figcaption>Esponja sintética amarilla, bloque rectangular. Bolsa de cuero curtido con forro gris, correa de hombro desmontable de 81 × 4 cm y logo grabado de 3.8 × 2.2 cm.</figcaption>
+  </figure>
+</div>
+
+<h2>Tabla resumen</h2>
+
+<div class="tablewrap">
+  <table>
+    <thead>
+      <tr>
+        <th>Pieza</th><th>Largo</th><th>Ancho</th><th>Alto</th><th>Detalle</th><th>Peso</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="piece">Dandy brush</td><td class="num">17.0<em>6.7″</em></td><td class="num">10.0 <span class="flag">*</span><em>3.9″</em></td><td class="num">5.0<em>2.0″</em></td><td>Cerda sisal 2.5 <em>1.0″</em> · asa 4.0 <em>1.6″</em></td><td class="num">290 g<em>10.2 oz</em></td></tr>
+      <tr><td class="piece">Soft brush</td><td class="num">19.5<em>7.7″</em></td><td class="num">6.0<em>2.4″</em></td><td class="num">6.0<em>2.4″</em></td><td>Cerda 4.5 <em>1.8″</em> · sin asa</td><td class="num">196 g<em>6.9 oz</em></td></tr>
+      <tr><td class="piece">Massage brush</td><td class="num">11.0<em>4.3″</em></td><td class="num">7.5 <span class="flag">*</span><em>3.0″</em></td><td class="num">5.0<em>2.0″</em></td><td>Tacos 1.5 <em>0.6″</em> · 9.0 <em>3.5″</em> c/asa</td><td class="num">134 g<em>4.7 oz</em></td></tr>
+      <tr><td class="piece">Pin brush</td><td class="num">20.5<em>8.1″</em></td><td class="num">7.0<em>2.8″</em></td><td class="num">4.0<em>1.6″</em></td><td>Púa expuesta 1.0 <em>0.4″</em> <span class="flag">*</span></td><td class="num">106 g<em>3.8 oz</em></td></tr>
+      <tr><td class="piece">Hoof pick</td><td class="num">16.5<em>6.5″</em></td><td class="num">7.8<em>3.1″</em></td><td class="num">2.05<em>0.8″</em></td><td>Agarre 3.7 <em>1.5″</em> · brocha 2.7 <em>1.1″</em></td><td class="num">111 g<em>3.9 oz</em></td></tr>
+      <tr><td class="piece">Curry comb</td><td class="num">22.0<em>8.7″</em></td><td class="num">10.0<em>3.9″</em></td><td class="num">2.45<em>1.0″</em></td><td>Mango 11.5 <em>4.5″</em> · ⌀ 3.2 <em>1.3″</em></td><td class="num">160 g<em>5.6 oz</em></td></tr>
+      <tr><td class="piece">Sweat scraper</td><td class="num">22.0<em>8.7″</em></td><td class="num">21.5<em>8.5″</em></td><td class="num">6.2<em>2.4″</em></td><td>Mango 11.5 <em>4.5″</em></td><td class="num">291 g<em>10.3 oz</em></td></tr>
+      <tr><td class="piece">Esponja</td><td class="num">16.0<em>6.3″</em></td><td class="num">8.0<em>3.1″</em></td><td class="num">5.0<em>2.0″</em></td><td>Bloque sintético</td><td class="num">13 g<em>0.5 oz</em></td></tr>
+      <tr><td class="piece">Bolsa</td><td class="num">34.0<em>13.4″</em></td><td class="num">26.5<em>10.4″</em></td><td class="num">27.0<em>10.6″</em></td><td>Correa 81 <em>31.9″</em> × 4 <em>1.6″</em></td><td class="num">948 g<em>2.1 lbs</em></td></tr>
+      <tr class="tot"><td class="piece">Kit completo</td><td class="num" colspan="3">Las 8 herramientas juntas</td><td>Bolsa cargada, lista para enviar</td><td class="num">2.25 kg<em>5.0 lbs</em></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="callout">
+  <h3>Las cotas marcadas con *</h3>
+  <p><b>Dandy brush, ancho.</b> Mismo caso que el massage brush: los 10.0 cm van de remache a remache. La madera sola ronda los 9.0 cm. Usa <b>9.0</b> para el cuerpo, <b>10.0</b> para el espacio ocupado.</p>
+  <p><b>Massage brush, ancho.</b> El reporte anota 9.0 cm medido <b>de remache a remache</b> — los que sujetan el asa de cuero a la madera. La madera sola mide 7.5 cm. Ambas cifras son correctas, miden cosas distintas: usa <b>7.5</b> para dibujar el cuerpo y <b>9.0</b> para calcular el espacio que ocupa.</p>
+  <p><b>Pin brush, largo de púa.</b> El reporte anota 1.8 cm midiendo desde la madera, o sea cojín de goma más púa. Lo que se ve y se usa es <b>1.0 cm</b> de púa sobre el cojín.</p>
+</div>
+
+<h2>Imágenes de Amazon — qué destacar</h2>
+
+<p class="lede" style="margin-bottom:4px;">La galería tiene siete espacios y cada uno debe hacer un trabajo distinto. Esta es la secuencia propuesta, ordenada por el orden en que el comprador los ve.</p>
+
+<div class="slots">
+
+  <div class="slot locked">
+    <span class="n">IMAGEN 1 · REGLAS ESTRICTAS</span>
+    <h4>Principal — el kit completo</h4>
+    <p>Las 8 piezas desplegadas junto a la bolsa. <b>Fondo blanco puro (255,255,255)</b>, sin texto, sin gráficos, sin logos añadidos y sin props. El producto debe ocupar el 85% del encuadre. Mínimo 1600 px de lado para que se active el zoom.</p>
+    <div class="copy">Amazon rechaza o suprime la imagen principal si lleva texto. Todo lo demás va en las otras seis.</div>
+  </div>
+
+  <div class="slot">
+    <span class="n">IMAGEN 2</span>
+    <h4>Qué incluye</h4>
+    <p>Flat lay de las 8 piezas más la bolsa, cada una con su nombre. Contesta la primera pregunta del comprador sin que tenga que leer la ficha.</p>
+    <div class="copy"><b>8 Tools. One Leather Bag. Every Job Covered.</b>Curry comb · dandy brush · massage brush · finishing brush · mane &amp; tail brush · hoof pick · sweat scraper · sponge</div>
+  </div>
+
+  <div class="slot">
+    <span class="n">IMAGEN 3</span>
+    <h4>Escala real</h4>
+    <p>Las piezas acotadas, o en una mano, o contra el cuello de un caballo. <b>Es la imagen que más devoluciones evita</b> — nadie juzga bien el tamaño en pantalla, y este kit es más grande de lo que aparenta. Usa las cotas de este documento.</p>
+    <div class="copy"><b>Full-Size Tools, Not Travel Minis.</b>Bag 13.4 × 10.4 × 10.6 in · 5 lbs complete<br><span style="opacity:.6">El texto del listing va en pulgadas y libras — el comprador es de EE.&nbsp;UU.</span></div>
+  </div>
+
+  <div class="slot">
+    <span class="n">IMAGEN 4</span>
+    <h4>La rutina, en orden</h4>
+    <p>Numerada 1→8: qué herramienta en qué momento. Es la imagen que <b>justifica por qué son ocho piezas</b> y no cuatro. Casi ningún competidor cuenta esto.</p>
+    <div class="copy"><b>A Tool for Every Stage.</b>1 Loosen · 2 Sweep out · 3 Stimulate · 4 Polish · 5 Detangle · 6 Pick out · 7 Bathe · 8 Scrape dry</div>
+  </div>
+
+  <div class="slot">
+    <span class="n">IMAGEN 5</span>
+    <h4>Materiales</h4>
+    <p>Macros de la veta de la haya, el grano del cuero, el brillo del latón y la fibra de sisal. Aquí es donde se ve el precio. El contraste implícito es contra el kit de plástico de $25.</p>
+    <div class="copy"><b>Beechwood, Leather, Brass, Sisal.</b>Not a piece of plastic in the bag.</div>
+  </div>
+
+  <div class="slot">
+    <span class="n">IMAGEN 6</span>
+    <h4>Las mejoras de esta versión</h4>
+    <p>Cuatro cuadrantes con macro de cada una. El mango del hoof pick admite un antes/después real (43 → 37 mm) y el curry comb admite mostrar el tornillo de ajuste.</p>
+    <div class="copy"><b>Four Upgrades This Season.</b>Sisal bristles · reshaped hoof pick grip · smoother pin tips · adjustable curry tension</div>
+  </div>
+
+  <div class="slot">
+    <span class="n">IMAGEN 7</span>
+    <h4>La bolsa en contexto</h4>
+    <p>Colgada en la cuadra, al hombro, o abierta mostrando cada herramienta en su compartimento. Cierra con el <b>ángulo de regalo</b>, que a este precio es la mitad de las ventas.</p>
+    <div class="copy"><b>Arrives Ready to Give.</b>Hand-finished leather bag with shoulder strap, pockets, and a place for every tool.</div>
+  </div>
+
+</div>
+
+<h2>Los argumentos, ordenados por fuerza</h2>
+
+<ol class="rank">
+  <li><b>La bolsa de cuero</b><span>Es lo único que un competidor de $25 no puede copiar, y es la razón por la que este kit funciona como regalo. Debe aparecer en la principal y volver a cerrar la galería.</span></li>
+  <li><b>Cero plástico</b><span>Haya, cuero, latón, acero y sisal. En una categoría dominada por el plástico inyectado, decirlo explícitamente vale más que cualquier adjetivo.</span></li>
+  <li><b>Las 8 piezas cubren la rutina entera</b><span>Curry, cepillado, masaje, pulido, crin y cola, cascos, baño y secado. No hay que comprar nada aparte.</span></li>
+  <li><b>Cerda de sisal natural</b><span>Más rígida, limpia en menos pasadas, y sigue siendo fibra vegetal. Además es la fibra tradicional del dandy brush — es autenticidad, no ahorro.</span></li>
+  <li><b>Mango del hoof pick rediseñado</b><span>De 43 a 37 mm en la zona de agarre. El beneficio se cuenta en situación: cuatro cascos seguidos, o con las manos frías.</span></li>
+  <li><b>Puntas que no parten el pelo</b><span>Las puntas ásperas son las que enganchan. El pelo de cola que se rompe tarda meses en volver — ese es el argumento, no el acabado en sí.</span></li>
+  <li><b>Curry comb ajustable</b><span>Sale rígido de fábrica. Vale la pena mencionarlo porque nació de los reviews: demuestra que se escucha.</span></li>
+  <li><b>Inspección independiente</b><span>Norma ANSI/ASQ Z1.4, cero defectos críticos y mayores. Es un sello de confianza, pero va al final — nadie compra por esto, aunque a algunos les cierra la duda.</span></li>
+</ol>
+
+<div class="callout">
+  <h3>Qué no poner en las imágenes</h3>
+  <p><b>No digas que pasó la inspección.</b> El reporte cierra en estado <i>Pending</i> por una observación abierta sobre la sujeción de las cerdas. Sí puedes citar la norma, el conteo de cero defectos críticos y mayores, y los ensayos aprobados — todo eso es cierto y verificable. Pero "passed inspection" a secas todavía no.</p>
+  <p><b>No menciones el fabricante ni el país de origen</b> en ninguna pieza gráfica.</p>
+  <p><b>Cuidado con "genuine leather".</b> El tipo exacto de cuero sigue sin confirmarse en la ficha. Hasta que se confirme, es más seguro escribir sobre el acabado y la hechura que sobre la clasificación del material.</p>
+  <p><b>Fotografía las cerdas peinadas.</b> La inspección advierte que se despeinan en tránsito. Si la foto muestra cerdas perfectas y al comprador le llega un cepillo despeinado, eso son reseñas de una estrella — conviene añadir en el texto del listing una línea diciendo que basta pasarles la mano.</p>
+</div>
+
+<footer>
+  <p>Cada cota lleva el valor en centímetros y debajo, en gris, su equivalente en pulgadas. Los pesos van en gramos con su conversión en onzas o libras. Cada esquema está a escala dentro de sí mismo; las proporciones entre esquemas distintos no son comparables.</p>
+  <p>Fuentes: Effition Inspection Report Ef20260805 (5 ago 2026) · medición física de muestra 1st version · plano de prototipo del fabricante para el ancho de agarre del hoof pick.</p>
+</footer>
+
+</div>

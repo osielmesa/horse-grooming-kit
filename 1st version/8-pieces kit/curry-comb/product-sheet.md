@@ -42,10 +42,13 @@ The Curry Comb has a distinctive **multi-ring coil design**: several concentric 
 
 | Measurement | Metric | US |
 |-------------|--------|------|
-| Length | 22 cm | 8.7 in |
-| Width | 10.3 cm | 4.1 in |
-| Height / thickness | 2.5 cm | 1.0 in |
+| Length (overall) | 22 cm | 8.7 in |
+| Ring diameter (outermost) | 10 cm | 3.9 in |
+| Ring stack width | 2.5 cm | 1.0 in |
+| Handle length | 11.5 cm | 4.5 in |
 | Net Weight | 152 g | 5.4 oz |
+
+> Dimensions above come from a physical measurement of a 1st-version sample.
 
 ---
 
@@ -64,8 +67,8 @@ The Curry Comb has a distinctive **multi-ring coil design**: several concentric 
 ## Packaging
 
 - Stored inside the large handcrafted leather bag
-- Bag dimensions: 36 × 28 × 28 cm (14.2 × 11.0 × 11.0 in)
-- Gross weight of bag + all 8 tools: 2.20 kg (4.9 lbs)
+- Bag dimensions: 34 × 26.5 × 27 cm (13.4 × 10.4 × 10.6 in)
+- Gross weight of bag + all 8 tools: 2.25 kg (5.0 lbs)
 
 ---
 

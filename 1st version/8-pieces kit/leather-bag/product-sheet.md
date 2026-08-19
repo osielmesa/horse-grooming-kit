@@ -10,7 +10,7 @@
 
 ## Description
 
-The Large Handcrafted Leather Bag is the storage and presentation unit of the 8-piece set. Significantly larger than the 4-piece bag (36 × 28 × 28 cm vs. 25 × 26 × 13.5 cm), it is a fully-featured carry bag with a **removable shoulder strap**, **multiple zipper compartments**, **blue fabric lining**, and **multiple interior mesh pockets and dividers** for each tool. The exterior is tan/cognac leather with brass hardware throughout. It attaches to a saddle rack or stable using the black elastic straps on the exterior top.
+The Large Handcrafted Leather Bag is the storage and presentation unit of the 8-piece set. Significantly larger than the 4-piece bag (34 × 26.5 × 27 cm vs. 25 × 26 × 13.5 cm), it is a fully-featured carry bag with a **removable shoulder strap**, **multiple zipper compartments**, **blue fabric lining**, and **multiple interior mesh pockets and dividers** for each tool. The exterior is tan/cognac leather with brass hardware throughout. It attaches to a saddle rack or stable using the black elastic straps on the exterior top.
 
 ---
 
@@ -48,11 +48,13 @@ The Large Handcrafted Leather Bag is the storage and presentation unit of the 8-
 
 | Measurement | Metric | US |
 |-------------|--------|------|
-| Width | 36 cm | 14.2 in |
-| Depth | 28 cm | 11.0 in |
-| Height | 28 cm | 11.0 in |
-| Gross Weight (with all 8 tools) | 2.20 kg | 4.9 lbs |
+| Width | 34 cm | 13.4 in |
+| Depth | 26.5 cm | 10.4 in |
+| Height | 27 cm | 10.6 in |
+| Gross Weight (with all 8 tools) | 2.25 kg | 5.0 lbs |
 
+> Dimensions revised against the later inspection report, which measures the bag twice independently and agrees with itself. The figures previously carried here (36 × 28 × 28 cm / 2.20 kg) were not reproducible.
+>
 > Significantly larger than the 4-piece bag (25 × 26 × 13.5 cm / 9.8 × 10.2 × 5.3 in / 1.15 kg / 2.5 lbs).
 
 ---
@@ -63,15 +65,17 @@ Holds all 8 tools from the set:
 
 | Tool | Dimensions (cm / in) | Weight |
 |------|----------------------|--------|
-| Sweat Scraper | 22 × 21.5 / 8.7 × 8.5 | 280 g / 9.9 oz |
-| Curry Comb | 22 × 10.3 × 2.5 / 8.7 × 4.1 × 1.0 | 152 g / 5.4 oz |
-| Mane & Tail Pin Brush | 20.5 × 7 × 3 / 8.1 × 2.8 × 1.2 | 95 g / 3.4 oz |
-| Hoof Pick | 16.5 × 8 × 2 / 6.5 × 3.1 × 0.8 | 103.5 g / 3.7 oz |
-| Grooming Sponge | 16.5 × 8 × 5 / 6.5 × 3.1 × 2.0 | 13.5 g / 0.5 oz |
-| Dandy Brush | 20 × 6 × 6.5 / 7.9 × 2.4 × 2.6 | 174 g / 6.1 oz |
-| Soft Finishing Brush | 17 × 9 × 7.7 / 6.7 × 3.5 × 3.0 | 265 g / 9.3 oz |
-| Massage Brush | 11 × 7.5 × 9 / 4.3 × 3.0 × 3.5 | 143.5 g / 5.1 oz |
+| Sweat Scraper | 21.5 × 21.5 × 5.9 / 8.5 × 8.5 × 2.3 | 280 g / 9.9 oz |
+| Curry Comb | 22 × 10 × 2.5 / 8.7 × 3.9 × 1.0 | 152 g / 5.4 oz |
+| Mane & Tail Pin Brush | 20.8 × 6.8 × 3.5 / 8.2 × 2.7 × 1.4 | 95 g / 3.4 oz |
+| Hoof Pick | 17.5 × 7.5 / 6.9 × 3.0 | 103.5 g / 3.7 oz |
+| Grooming Sponge | 16 × 8 × 5 / 6.3 × 3.1 × 2.0 | 13.5 g / 0.5 oz |
+| Dandy Brush | 17 × 9 × 4.5 / 6.7 × 3.5 × 1.8 | 265 g / 9.3 oz |
+| Soft Finishing Brush | 20 × 6 × 6.5 / 7.9 × 2.4 × 2.6 | 174 g / 6.1 oz |
+| Massage Brush | 11 × 7.5 × 4.5 / 4.3 × 3.0 × 1.8 | 143.5 g / 5.1 oz |
 | **Total tools weight** | | **~1,227 g / ~43.3 oz** |
+
+> Dimensions come from a physical measurement of a 1st-version sample. Weights are carried from the inspection report, with the Dandy / Soft Finishing assignment corrected — the two had been swapped throughout this documentation.
 
 ---
 
@@ -89,8 +93,8 @@ Holds all 8 tools from the set:
 
 | Feature | 4-Piece Bag | 8-Piece Bag |
 |---------|-------------|-------------|
-| Dimensions | 25 × 26 × 13.5 cm (9.8 × 10.2 × 5.3 in) | 36 × 28 × 28 cm (14.2 × 11.0 × 11.0 in) |
-| Gross weight (with tools) | 1.15 kg (2.5 lbs) | 2.20 kg (4.9 lbs) |
+| Dimensions | 25 × 26 × 13.5 cm (9.8 × 10.2 × 5.3 in) | 34 × 26.5 × 27 cm (13.4 × 10.4 × 10.6 in) |
+| Gross weight (with tools) | 1.15 kg (2.5 lbs) | 2.25 kg (5.0 lbs) |
 | OPP barcode | X004YDJNQH | X004YDO8SZ |
 | Units per master carton | 4 | 2 |
 
@@ -166,7 +170,7 @@ Holds all 8 tools from the set:
 | Field | Value |
 |-------|-------|
 | Net weight — empty bag only | _TBD_ (g) |
-| Gross weight — bag + all 8 tools | 2,200 g (confirmed at inspection) |
+| Gross weight — bag + all 8 tools | 2,250 g (confirmed at inspection) |
 
 ### Procurement & Commercial
 

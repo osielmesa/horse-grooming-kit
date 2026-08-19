@@ -38,12 +38,15 @@ The Dandy Brush in the 8-piece kit is an oval body brush with a light beechwood 
 
 | Measurement | Metric | US |
 |-------------|--------|------|
-| Length | 20 cm | 7.9 in |
-| Width | 6 cm | 2.4 in |
-| Height (with bristles) | 6.5 cm | 2.6 in |
-| Net Weight | 174 g | 6.1 oz |
+| Length | 17 cm | 6.7 in |
+| Width | 9 cm | 3.5 in |
+| Height (with bristles) | 4.5 cm | 1.8 in |
+| Bristle length | 2.5 cm | 1.0 in |
+| Net Weight | 265 g | 9.3 oz |
 
-> Narrower and lighter profile than the 4-piece version (19 × 8.5 × 14 cm / 7.5 × 3.3 × 5.5 in / 275.5 g / 9.7 oz). Confirm with supplier whether it is a different SKU.
+> **Correction applied.** Earlier revisions listed 20 × 6 × 6.5 cm / 174 g. Those are the Soft Finishing Brush's figures — the two brushes had their measurement sets swapped throughout this documentation.
+>
+> Dimensions above come from a physical measurement of a 1st-version sample. The weight is the earlier report's figure with the swapped assignment corrected, and remains unverified.
 
 ---
 
@@ -60,8 +63,8 @@ The Dandy Brush in the 8-piece kit is an oval body brush with a light beechwood 
 ## Packaging
 
 - Stored inside the large handcrafted leather bag
-- Bag dimensions: 36 × 28 × 28 cm (14.2 × 11.0 × 11.0 in)
-- Gross weight of bag + all 8 tools: 2.20 kg (4.9 lbs)
+- Bag dimensions: 34 × 26.5 × 27 cm (13.4 × 10.4 × 10.6 in)
+- Gross weight of bag + all 8 tools: 2.25 kg (5.0 lbs)
 
 ---
 

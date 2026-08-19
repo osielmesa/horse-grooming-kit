@@ -41,10 +41,16 @@ The Hoof Pick has an ergonomic **contoured beechwood handle** with a hanging hol
 
 | Measurement | Metric | US |
 |-------------|--------|------|
-| Length | 16.5 cm | 6.5 in |
-| Width | 8 cm | 3.1 in |
-| Height / thickness | 2 cm | 0.8 in |
+| Length (overall, incl. metal pick) | 17.5 cm | 6.9 in |
+| Handle length | 16 cm | 6.3 in |
+| Width (overall, incl. wire brush) | 7.5 cm | 3.0 in |
+| Handle width at grip | 4.3 cm | 1.7 in |
+| Wire brush length | 2.5 cm | 1.0 in |
 | Net Weight | 103.5 g | 3.7 oz |
+
+> This is the **original handle profile at 43 mm across the grip**. The 2nd-version kit uses a reshaped handle narrowed to 37 mm, with a slightly more compact overall length of 16.5 cm.
+>
+> Dimensions above come from a physical measurement of a 1st-version sample.
 
 ---
 
@@ -62,8 +68,8 @@ The Hoof Pick has an ergonomic **contoured beechwood handle** with a hanging hol
 ## Packaging
 
 - Stored inside the large handcrafted leather bag
-- Bag dimensions: 36 × 28 × 28 cm (14.2 × 11.0 × 11.0 in)
-- Gross weight of bag + all 8 tools: 2.20 kg (4.9 lbs)
+- Bag dimensions: 34 × 26.5 × 27 cm (13.4 × 10.4 × 10.6 in)
+- Gross weight of bag + all 8 tools: 2.25 kg (5.0 lbs)
 
 ---
 

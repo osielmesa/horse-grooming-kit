@@ -29,12 +29,15 @@ The Mane & Tail Pin Brush in the 8-piece kit serves the same function as in the 
 
 | Measurement | Metric | US |
 |-------------|--------|------|
-| Total length | 20.5 cm | 8.1 in |
-| Head width | 7 cm | 2.8 in |
-| Thickness | 3 cm | 1.2 in |
+| Total length | 20.8 cm | 8.2 in |
+| Head width | 6.8 cm | 2.7 in |
+| Thickness (incl. pins) | 3.5 cm | 1.4 in |
+| Pin length exposed above cushion | 1.0 cm | 0.4 in |
 | Net Weight | 95 g | 3.4 oz |
 
-> Note: Smaller than the 4-piece version (24 × 8.5 × 1.7 cm / 9.4 × 3.3 × 0.7 in / 148 g / 5.2 oz). Confirm with supplier whether this is a different SKU or a measurement discrepancy.
+> Dimensions above come from a physical measurement of a 1st-version sample.
+>
+> Note: Smaller than the 4-piece version (24 × 8.5 × 1.7 cm / 9.4 × 3.3 × 0.7 in / 148 g / 5.2 oz). Confirm with supplier whether this is a different SKU.
 
 ---
 
@@ -52,8 +55,8 @@ The Mane & Tail Pin Brush in the 8-piece kit serves the same function as in the 
 ## Packaging
 
 - Stored inside the large handcrafted leather bag
-- Bag dimensions: 36 × 28 × 28 cm (14.2 × 11.0 × 11.0 in)
-- Gross weight of bag + all 8 tools: 2.20 kg (4.9 lbs)
+- Bag dimensions: 34 × 26.5 × 27 cm (13.4 × 10.4 × 10.6 in)
+- Gross weight of bag + all 8 tools: 2.25 kg (5.0 lbs)
 
 ---
 

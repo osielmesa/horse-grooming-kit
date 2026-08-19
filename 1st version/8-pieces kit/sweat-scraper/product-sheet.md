@@ -42,11 +42,13 @@ The Sweat Scraper has a premium design: a wide crescent-shaped **gold/brass-fini
 
 | Measurement | Metric | US |
 |-------------|--------|------|
-| Length | 22 cm | 8.7 in |
-| Width | 21.5 cm | 8.5 in |
+| Length (overall) | 21.5 cm | 8.5 in |
+| Width (blade span) | 21.5 cm | 8.5 in |
+| Height (blade depth) | 5.9 cm | 2.3 in |
+| Handle length | 11.5 cm | 4.5 in |
 | Net Weight | 280 g | 9.9 oz |
 
-> Heaviest individual tool in the 8-piece set and the widest by surface area. The 2D measurement (22 × 21.5 cm / 8.7 × 8.5 in) suggests a flat or gently curved profile with no significant third-dimension height.
+> Heaviest individual tool in the 8-piece set and the widest by surface area. Dimensions above come from a physical measurement of a 1st-version sample.
 
 ---
 
@@ -64,8 +66,8 @@ The Sweat Scraper has a premium design: a wide crescent-shaped **gold/brass-fini
 ## Packaging
 
 - Stored inside the large handcrafted leather bag
-- Bag dimensions: 36 × 28 × 28 cm (14.2 × 11.0 × 11.0 in)
-- Gross weight of bag + all 8 tools: 2.20 kg (4.9 lbs)
+- Bag dimensions: 34 × 26.5 × 27 cm (13.4 × 10.4 × 10.6 in)
+- Gross weight of bag + all 8 tools: 2.25 kg (5.0 lbs)
 
 ---
 
